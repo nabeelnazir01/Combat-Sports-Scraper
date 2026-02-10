@@ -80,40 +80,52 @@ async def scrape_tapology(browser, url, promotion_name):
 async def scrape_boxlive(browser, url):
     promotion_name = "Boxing"
     logger.info(f"Scraping Box.live: {url}")
+    # GitHub Action IPs often need more headers to look like a real browser
     context = await browser.new_context(
-        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        viewport={'width': 1920, 'height': 1080},
+        extra_http_headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        }
     )
     page = await context.new_page()
     try:
-        await page.goto(url, wait_until="domcontentloaded", timeout=60000)
-        await asyncio.sleep(3) # Wait for JS to render
+        response = await page.goto(url, wait_until="load", timeout=90000)
+        logger.info(f"Box.live status: {response.status if response else 'No Response'}, Title: {await page.title()}")
+        
+        # Some sites have an initial transition or consent wall, wait a bit longer for fight cards
+        await page.wait_for_load_state("networkidle", timeout=10000)
+        await asyncio.sleep(5) 
         
         content = await page.content()
         soup = BeautifulSoup(content, 'html.parser')
     
         events = []
+        # Check if we even found the card container
+        cards = soup.select('.schedule-card')
+        logger.info(f"Initial check: Found {len(cards)} .schedule-card elements")
+        
+        if len(cards) == 0:
+            logger.warning("No cards found with .schedule-card selector. Checking for common alternatives...")
+
         # Find all date headers and cards in order
         current_date = "N/A"
-        # We'll look at all elements that could be headers or cards
         all_elements = soup.find_all(['h3', 'h2', 'div'])
         for el in all_elements:
-            # Check if it's a date header
             if el.name in ['h3', 'h2']:
                 txt = el.get_text().strip()
                 if any(day in txt for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']):
                     current_date = txt
             
-            # Check if it contains a schedule card
             if 'schedule-card' in el.get('class', []):
                 try:
                     name_elem = el.select_one('.schedule-card__view-btn')
                     name = name_elem.get('title') or name_elem.get_text(strip=True) if name_elem else "Unknown Fight"
                     
-                    # Location
                     loc_elem = el.select_one('.schedule-card__content__place')
                     location = loc_elem.get_text(strip=True) if loc_elem else "N/A"
                     
-                    # Time - check for .localtime
                     time_elem = el.select_one('.localtime')
                     time_str = time_elem.get_text(strip=True) if time_elem else ""
                     
@@ -127,6 +139,8 @@ async def scrape_boxlive(browser, url):
                     })
                 except Exception as e:
                     logger.error(f"Error parsing Box.live card: {e}")
+        
+        logger.info(f"Scraped {len(events)} events from Box.live")
     except Exception as e:
         logger.error(f"Failed to load Box.live: {e}")
     finally:

@@ -157,7 +157,7 @@
     },
     {
         "event_name": "Zuffa Boxing 3: Ajagba vs. Martin",
-        "date_and_time": "Sunday, February 15,  9:00 PM ET",
+        "date_and_time": "Sunday, February 15,  7:30 PM ET",
         "location": "Meta APEX",
         "promotion": "Zuffa"
     },
@@ -444,6 +444,12 @@
         "promotion": "Boxing"
     },
     {
+        "event_name": "Santiago vs Taniguchi",
+        "date_and_time": "Friday, 3 April 2026",
+        "location": "Tokyo, Japan",
+        "promotion": "Boxing"
+    },
+    {
         "event_name": "Wilder vs Chisora",
         "date_and_time": "Saturday, 4 April 2026",
         "location": "O2 Arena, Greenwich, United Kingdom",
@@ -459,6 +465,12 @@
         "event_name": "Dubois vs Harper",
         "date_and_time": "Sunday, 5 April 2026",
         "location": "Olympia, Kensington, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Iglesias vs Silyagin",
+        "date_and_time": "Thursday, 9 April 2026",
+        "location": "Montreal, Canada",
         "promotion": "Boxing"
     },
     {
@@ -489,6 +501,12 @@
         "event_name": "Adams vs Agyarko",
         "date_and_time": "Saturday, 18 April 2026",
         "location": "California, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Wardley vs Dubois",
+        "date_and_time": "Saturday, 9 May 2026",
+        "location": "Co-op Live Arena, Manchester, United Kingdom",
         "promotion": "Boxing"
     },
     {
