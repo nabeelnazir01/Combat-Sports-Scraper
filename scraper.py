@@ -1,8 +1,10 @@
 import asyncio
 import json
 import logging
+import random
 from datetime import datetime
 from playwright.async_api import async_playwright
+from playwright_stealth import stealth_async
 from bs4 import BeautifulSoup
 
 # Setup logging
@@ -13,9 +15,11 @@ async def scrape_tapology(browser, url, promotion_name):
     logger.info(f"Scraping Tapology for {promotion_name}: {url}")
     # Use a real user agent
     context = await browser.new_context(
-        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     )
     page = await context.new_page()
+    await stealth_async(page)
+    
     try:
         # Increase timeout and use a less strict wait
         await page.goto(url, wait_until="domcontentloaded", timeout=60000)
@@ -80,35 +84,60 @@ async def scrape_tapology(browser, url, promotion_name):
 async def scrape_boxlive(browser, url):
     promotion_name = "Boxing"
     logger.info(f"Scraping Box.live: {url}")
-    # GitHub Action IPs often need more headers to look like a real browser
+    
+    # Randomize User Agent slightly
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    ]
+    
     context = await browser.new_context(
-        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        user_agent=random.choice(user_agents),
         viewport={'width': 1920, 'height': 1080},
         extra_http_headers={
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Cache-Control": "max-age=0",
+            "Referer": "https://www.google.com/"
         }
     )
+    
     page = await context.new_page()
+    # Apply stealth
+    await stealth_async(page)
+    
     try:
+        # Add a random delay before navigating
+        await asyncio.sleep(random.uniform(2, 5))
+        
         response = await page.goto(url, wait_until="load", timeout=90000)
         logger.info(f"Box.live status: {response.status if response else 'No Response'}, Title: {await page.title()}")
         
-        # Some sites have an initial transition or consent wall, wait a bit longer for fight cards
+        # If we get a 403, try to wait a bit and see if it clears (unlikely but worth a shot)
+        if response and response.status == 403:
+            logger.warning("Box.live returned 403. Trying to wait and scroll...")
+            await asyncio.sleep(10)
+            await page.evaluate("window.scrollTo(0, 100)")
+        
         await page.wait_for_load_state("networkidle", timeout=10000)
         await asyncio.sleep(5) 
         
         content = await page.content()
-        soup = BeautifulSoup(content, 'html.parser')
+        soup = BeautifulSoup(content, 'parser.html' if 'parser.html' in str(BeautifulSoup) else 'html.parser')
     
         events = []
         # Check if we even found the card container
         cards = soup.select('.schedule-card')
         logger.info(f"Initial check: Found {len(cards)} .schedule-card elements")
         
-        if len(cards) == 0:
-            logger.warning("No cards found with .schedule-card selector. Checking for common alternatives...")
-
         # Find all date headers and cards in order
         current_date = "N/A"
         all_elements = soup.find_all(['h3', 'h2', 'div'])
@@ -159,15 +188,20 @@ async def main():
     all_events = []
     
     async with async_playwright() as p:
+        # Try Firefox for Box.live as it sometimes bypasses Chromium-specific blocks
+        # But we'll stick to a single browser instance for simplicity, just making it more stealthy.
         browser = await p.chromium.launch(headless=True)
         
         for url, promo in urls:
-            if "tapology.com" in url:
-                events = await scrape_tapology(browser, url, promo)
-                all_events.extend(events)
-            elif "box.live" in url:
-                events = await scrape_boxlive(browser, url)
-                all_events.extend(events)
+            try:
+                if "tapology.com" in url:
+                    events = await scrape_tapology(browser, url, promo)
+                    all_events.extend(events)
+                elif "box.live" in url:
+                    events = await scrape_boxlive(browser, url)
+                    all_events.extend(events)
+            except Exception as e:
+                logger.error(f"Top level error scraping {url}: {e}")
                 
         await browser.close()
         
