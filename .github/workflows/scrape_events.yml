@@ -23,10 +23,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Install Playwright Browser
-      run: |
-        python -m playwright install chromium
-
     - name: Run Scraper
       run: python scraper.py
 
@@ -36,6 +32,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add upcoming_events.json
         git commit -m "Update upcoming events [auto]" || echo "No changes to commit"
-        git push
+        git pull --rebase origin main
+        git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

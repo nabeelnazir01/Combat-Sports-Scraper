@@ -322,200 +322,569 @@
         "date_and_time": "Friday, May  9, 2025",
         "location": "Onyx Arena",
         "promotion": "PFL"
-<<<<<<< HEAD
     },
     {
-        "event_name": "Pagan vs Jimenez",
-        "date_and_time": "Tuesday, 10 February 2026",
-        "location": "GLC Live20 Monroe, Michigan, United States",
+        "event_name": "Delfine Persoon vs. Caroline Veyre",
+        "date_and_time": "Feb. 10, 2026",
+        "location": "Grand Rapids, Michigan (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Xhoxhaj vs Seifkhani",
-        "date_and_time": "Saturday, 14 February 2026",
-        "location": "Hallensportzentrum, Lahr, Germany",
+        "event_name": "Joshua Pagan vs. Bryan Jimenez",
+        "date_and_time": "Feb. 10, 2026",
+        "location": "Grand Rapids, Michigan (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Ajagba vs Martin",
-        "date_and_time": "Sunday, 15 February 2026",
-        "location": "Meta Apex, Las Vegas, United States",
+        "event_name": "Justin Lacey-Pierce vs. Jose Luis Sanchez",
+        "date_and_time": "Feb. 10, 2026",
+        "location": "Grand Rapids, Michigan (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Nishida vs Mercado",
-        "date_and_time": "Sunday, 15 February 2026",
-        "location": "Sumiyoshi SportsCenter, Osaka, Japan",
+        "event_name": "Sardius Simmons vs. Jonathan Lee Rice",
+        "date_and_time": "Feb. 10, 2026",
+        "location": "Grand Rapids, Michigan (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Garcia vs Barrios",
-        "date_and_time": "Saturday, 21 February 2026",
-        "location": "T-Mobile Arena, Las Vegas, United States",
+        "event_name": "Joseph Hicks vs. Todd Manuel",
+        "date_and_time": "Feb. 10, 2026",
+        "location": "Grand Rapids, Michigan (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Wood Vs Warrington II",
-        "date_and_time": "Saturday, 21 February 2026",
-        "location": "Motorpoint Arena, Nottingham, United Kingdom",
+        "event_name": "Ulysses Campos vs. Teon McGee",
+        "date_and_time": "Feb. 10, 2026",
+        "location": "Grand Rapids, Michigan (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Shields vs Dezurn II",
-        "date_and_time": "Sunday, 22 February 2026",
-        "location": "Little Ceasars Arena, Detroit, United States",
+        "event_name": "Efe Ajagba vs. Charles Martin",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Giron vs Torres",
-        "date_and_time": "Friday, 27 February 2026",
-        "location": "University of Texas, Arlington, United States",
+        "event_name": "Umar Dzambekov vs. Ahmed El Biali",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Navarrete vs Nunez",
-        "date_and_time": "Saturday, 28 February 2026",
-        "location": "Desert Diamond Arena, Glendale, United States",
+        "event_name": "Abel Mejia vs. Jaybrio Pe Benito",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Cooper vs Ursu",
-        "date_and_time": "Saturday, 28 February 2026",
-        "location": "Vaillant Live, Derby, United Kingdom",
+        "event_name": "Leonardo Ruiz vs. Casey Streeter",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Pierce vs Parra",
-        "date_and_time": "Saturday, 28 February 2026",
-        "location": "Turning Stone Resort & Casino, Verona, United States",
+        "event_name": "Antonio Woods vs. Mark Beuke",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Butler vs Hiseni",
-        "date_and_time": "Thursday, 5 March 2026",
-        "location": "Montreal Casino, Montreal, Canada",
+        "event_name": "Emiliano Alvarado vs. Devin Gantt",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Fress vs Kahrovic",
-        "date_and_time": "Saturday, 7 March 2026",
-        "location": "Messehalle, Magdeburg, Germany",
+        "event_name": "Oswaldo Molina vs. Joshua Clark",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Rozicki vs Mellado",
-        "date_and_time": "Saturday, 7 March 2026",
-        "location": "Centre 200, Sydney, Canada",
+        "event_name": "Darial Kuchmenov vs. TBD",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Las Vegas (Paramount+)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Opetaia vs Glanton",
-        "date_and_time": "Sunday, 8 March 2026",
-        "location": "Meta Apex, Las Vegas, United States",
+        "event_name": "Ryosuke Nishida vs. Bryan Mercado Vazquez",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Osaka, Japan",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Dickens vs Cacace",
-        "date_and_time": "Saturday, 14 March 2026",
-        "location": "3Arena, Dublin, Ireland",
+        "event_name": "Min Ho Jung vs. Shuma Nakazato",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Osaka, Japan",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Donaire vs Masuda",
-        "date_and_time": "Sunday, 15 March 2026",
-        "location": "Yokohama Buntai, Yokohama, Japan",
+        "event_name": "Keisuke Iwasaki vs. Tairan Yokote",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Osaka, Japan",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Conlan vs Walsh",
-        "date_and_time": "Friday, 20 March 2026",
-        "location": "The SSE Arena, Belfast, United Kingdom",
+        "event_name": "Juiki Tatsuyoshi vs. Shoki Yamauchi",
+        "date_and_time": "Feb. 15, 2026",
+        "location": "Osaka, Japan",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Fundora vs Thurman",
-        "date_and_time": "Saturday, 28 March 2026",
-        "location": "MGM Grand, Grand Garden Arena, Las Vegas, United States",
+        "event_name": "Jin Sasaki vs. TBA",
+        "date_and_time": "Feb. 19, 2026",
+        "location": "Tokyo",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Itauma vs Franklin Jr",
-        "date_and_time": "Saturday, 28 March 2026",
-        "location": "Co-op Live Arena, Manchester, United Kingdom",
+        "event_name": "Kanta Fukui vs. Taison Mukaiyama",
+        "date_and_time": "Feb. 19, 2026",
+        "location": "Tokyo",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Santiago vs Taniguchi",
-        "date_and_time": "Friday, 3 April 2026",
-        "location": "Tokyo, Japan",
+        "event_name": "Rentaro Kimura vs. Ryusei Ishii",
+        "date_and_time": "Feb. 19, 2026",
+        "location": "Tokyo",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Wilder vs Chisora",
-        "date_and_time": "Saturday, 4 April 2026",
-        "location": "O2 Arena, Greenwich, United Kingdom",
+        "event_name": "Ei Go vs. Ryugo Ushijima",
+        "date_and_time": "Feb. 19, 2026",
+        "location": "Tokyo",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Price vs Aquino",
-        "date_and_time": "Saturday, 4 April 2026",
-        "location": "Utilita Arena Cardiff, Cardiff, United Kingdom",
+        "event_name": "Ryuo vs. Kazuki Iwasaki",
+        "date_and_time": "Feb. 19, 2026",
+        "location": "Tokyo",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Dubois vs Harper",
-        "date_and_time": "Sunday, 5 April 2026",
-        "location": "Olympia, Kensington, United Kingdom",
+        "event_name": "Kai Watanabe vs. Shido Arai",
+        "date_and_time": "Feb. 19, 2026",
+        "location": "Tokyo",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Iglesias vs Silyagin",
-        "date_and_time": "Thursday, 9 April 2026",
-        "location": "Montreal, Canada",
+        "event_name": "Mario Barrios vs. Ryan Garcia",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Las Vegas (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Fury vs Makhmudov",
-        "date_and_time": "Saturday, 11 April 2026",
-        "location": "in the United Kingdom",
+        "event_name": "Gary Antuanne Russell vs. Andy Hiraoka",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Las Vegas (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Mielnicki Jr vs Huerta",
-        "date_and_time": "Saturday, 11 April 2026",
-        "location": "Boardwalk Hall, Atlantic City, United States",
+        "event_name": "Richardson Hitchins vs. Oscar Duarte",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Las Vegas (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Barrett vs Acosta",
-        "date_and_time": "Saturday, 11 April 2026",
-        "location": "in Spain",
+        "event_name": "Frank Martin vs. Nahir Albright",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Las Vegas (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Simsri vs Cordova",
-        "date_and_time": "Monday, 13 April 2026",
-        "location": "Korakuen Hall, Tokyo, Japan",
+        "event_name": "Josh Warrington vs. Leigh Wood",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Nottingham, England (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Adams vs Agyarko",
-        "date_and_time": "Saturday, 18 April 2026",
-        "location": "California, United States",
+        "event_name": "Ishmael Davis vs. Bilal Fawaz",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Nottingham, England (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Wardley vs Dubois",
-        "date_and_time": "Saturday, 9 May 2026",
-        "location": "Co-op Live Arena, Manchester, United Kingdom",
+        "event_name": "Sandy Ryan vs. Karla Ramos Zamora",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Nottingham, England (DAZN)",
         "promotion": "Boxing"
     },
     {
-        "event_name": "Jukembayev vs Ergashev",
-        "date_and_time": "Saturday, 9 May 2026",
-        "location": "Humo Arena, Tashkent, Uzbekistan",
+        "event_name": "David Allen vs. TBA",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Nottingham, England (DAZN)",
         "promotion": "Boxing"
-=======
->>>>>>> fad0df24ecaea6f68aab0d7b6556d1bd24915fd1
+    },
+    {
+        "event_name": "Tiah Mai Ayton vs. Catherine Tacone Ramos",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Nottingham, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Junaid Bostan vs. TBA",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Nottingham, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Maira Moneo vs. Micaela Soledad Dominguez",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Buenos Aires, Argentina",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Pablo Exequiel Corzo vs. TBA",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Buenos Aires, Argentina",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Edilberto Fernandez vs. TBA",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Buenos Aires, Argentina",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jose Ramirez Maciel vs. Luis Rodriguez Ocana",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Camila Anae Zamorano vs. Claudia Veronica Ruiz",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Alexis Gonzalez vs. TBA",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Luis Gerardo Corona Parra vs. Oscar Gabriel Cortez Arredondo",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jandell Caballero vs. Manuel Rodriguez",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Fernanda Denisse Monge Amaro vs. Cecilia Soledad Mendoza Lopez",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "David Alonso Sanchez Estralla vs. TBA",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Odaliz Alexandra Corzo vs. Andrea Benitez Vargas",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Axel Jose Lopez Gonzalez vs. Jonathan Ubaldo Cuamea Herrnandez",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Rhett Gibbons vs. Martin Quevedo Alvarez",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Ricardo de la Torre vs. Noe Ezequiel Palafox Parra",
+        "date_and_time": "Feb. 21, 2026",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Claressa Shields vs. Franchon Crews-Dezurn",
+        "date_and_time": "Feb. 22, 2026",
+        "location": "Detroit (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Che Kenneally vs. Danielle Perkins",
+        "date_and_time": "Feb. 22, 2026",
+        "location": "Detroit (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Bradley Wilcox vs. Mark Smither",
+        "date_and_time": "Feb. 27, 2026",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Sara Bailey vs. Mariela Ribera Valverde",
+        "date_and_time": "Feb. 27, 2026",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Melinda Watpool vs. Farina Roemling",
+        "date_and_time": "Feb. 27, 2026",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Doni Foreman vs. Jose Paredes Hernandez",
+        "date_and_time": "Feb. 27, 2026",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Deaquan Rumbolt vs. Jack Hughes",
+        "date_and_time": "Feb. 27, 2026",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Adam Fregonas vs. Juan Manuel Obelar",
+        "date_and_time": "Feb. 27, 2026",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Emanuel Navarrete vs. Eduardo Nunez",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Tahmir Smalls vs. Abel Ramos",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Emiliano Vargas vs. Agustin Ezequiel Quintana",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Arturo Popoca vs. Jordan Martinez",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Trini Ochoa vs. TBA",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Hector Beltran vs. TBA",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Phillip Vella vs. TBA",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Rahman Muhammad vs. TBA",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Elijah Pierce vs. Lorenzo Parra",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Verona, New York (Amazon Prime Video)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Bryce Mills vs. Tobias Green",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Verona, New York (Amazon Prime Video)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Manny Pacquiao Jr. vs. TBA",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Verona, New York (Amazon Prime Video)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Curmel Moton vs. TBA",
+        "date_and_time": "Feb. 28, 2026",
+        "location": "Verona, New York (Amazon Prime Video)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jai Opetaia vs. TBA",
+        "date_and_time": "March 8, 2026",
+        "location": "Las Vegas (Paramount+)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "James Dickens vs. Anthony Cacace",
+        "date_and_time": "March 14, 2026",
+        "location": "Dublin, Ireland (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Pierce O'Leary vs. Mark Chamberlain",
+        "date_and_time": "March 14, 2026",
+        "location": "Dublin, Ireland (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Knockout CP Freshmart vs. Shokichi Iwata",
+        "date_and_time": "March 15, 2026",
+        "location": "Yokohama, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Anthony Olascuaga vs. Jukiya Iimura",
+        "date_and_time": "March 15, 2026",
+        "location": "Yokohama, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Ryusei Matsumoto vs. Yuni Takada",
+        "date_and_time": "March 15, 2026",
+        "location": "Yokohama, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Nonito Donaire vs. Riku Masuda",
+        "date_and_time": "March 15, 2026",
+        "location": "Yokohama, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Sebastian Fundora vs. Keith Thurman",
+        "date_and_time": "March 28, 2026",
+        "location": "Las Vegas (Prime Video PPV)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Moses Itauma vs. Jermaine Franklin Jr.",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Willy Hutchinson vs. Ezra Taylor",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Liam Davies vs. Zak Miller",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Shakiel Thompson vs. Brad Pauls",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Nathan Heaney vs. Gerome Warburton",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Aqib Fiaz vs. Jordan Flynn",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Alex Murphy vs. Josh Holmes",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Nelson Birchall vs. Ryan Griffiths",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "John Joe Carrigan vs. Danny Costello",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Aadam Hamed vs. Kasey Bradnum",
+        "date_and_time": "March 28, 2026",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Deontay Wilder vs. Derek Chisora",
+        "date_and_time": "April 4, 2026",
+        "location": "London (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Lauren Price vs. Stephanie Pineiro Aquino",
+        "date_and_time": "April 4, 2026",
+        "location": "Cardiff, Wales (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Caroline Dubois vs. Terri Harper",
+        "date_and_time": "April 5, 2026",
+        "location": "London",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Ellie Scotney vs. Mayelli Flores",
+        "date_and_time": "April 5, 2026",
+        "location": "London",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Irma Garcia vs. Emma Dolan",
+        "date_and_time": "April 5, 2026",
+        "location": "London",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Chantelle Cameron vs. Michaela Kotaskova",
+        "date_and_time": "April 5, 2026",
+        "location": "London",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Tyson Fury vs. Arslanbek Makhmudov",
+        "date_and_time": "April 11, 2026",
+        "location": "TBA (Netflix)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Gilberto \"Zurdo\" Ramirez vs. David Benavidez",
+        "date_and_time": "May 2, 2026",
+        "location": "Las Vegas (DAZN)",
+        "promotion": "Boxing"
     }
 ]

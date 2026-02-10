@@ -1,3 +1,2 @@
-playwright
-playwright-stealth
+httpx
 beautifulsoup4
