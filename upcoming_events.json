@@ -322,6 +322,7 @@
         "date_and_time": "Friday, May  9, 2025",
         "location": "Onyx Arena",
         "promotion": "PFL"
+<<<<<<< HEAD
     },
     {
         "event_name": "Pagan vs Jimenez",
@@ -514,5 +515,7 @@
         "date_and_time": "Saturday, 9 May 2026",
         "location": "Humo Arena, Tashkent, Uzbekistan",
         "promotion": "Boxing"
+=======
+>>>>>>> fad0df24ecaea6f68aab0d7b6556d1bd24915fd1
     }
 ]
