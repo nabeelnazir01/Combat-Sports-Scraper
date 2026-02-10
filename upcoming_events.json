@@ -1,0 +1,500 @@
+[
+    {
+        "event_name": "UFC Fight Night",
+        "date_and_time": "Saturday, August 29,  3:00 AM ET",
+        "location": "Shanghai Indoor Stadium",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC White House",
+        "date_and_time": "Sunday, June 14,  6:00 PM ET",
+        "location": "South Lawn of the White House",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night",
+        "date_and_time": "Saturday, May 30,  3:00 AM ET",
+        "location": "Galaxy Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 327",
+        "date_and_time": "Saturday, April 11,  6:00 PM ET",
+        "location": "Kaseya Center",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night",
+        "date_and_time": "Saturday, April  4,  6:00 PM ET",
+        "location": "Meta APEX",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Adesanya vs. Pyfer",
+        "date_and_time": "Saturday, March 28,  5:00 PM ET",
+        "location": "Climate Pledge Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Evloev vs. Murphy",
+        "date_and_time": "Saturday, March 21,  1:00 PM ET",
+        "location": "The 02",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Emmett vs. Vallejos",
+        "date_and_time": "Saturday, March 14,  6:00 PM ET",
+        "location": "Meta APEX",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 326: Holloway vs. Oliveira 2",
+        "date_and_time": "Saturday, March  7,  5:00 PM ET",
+        "location": "T-Mobile Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Moreno vs. Kavanagh",
+        "date_and_time": "Saturday, February 28,  5:00 PM ET",
+        "location": "Arena CDMX",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Strickland vs. Hernandez",
+        "date_and_time": "Saturday, February 21,  5:00 PM ET",
+        "location": "Toyota Center",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Bautista vs. Oliveira",
+        "date_and_time": "Saturday, February  7,  5:00 PM ET",
+        "location": "Meta APEX",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 325: Volkanovski vs. Lopes 2",
+        "date_and_time": "Saturday, January 31,  5:00 PM ET",
+        "location": "Qudos Bank Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 324: Gaethje vs. Pimblett",
+        "date_and_time": "Saturday, January 24,  5:30 PM ET",
+        "location": "T-Mobile Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Royval vs. Kape",
+        "date_and_time": "Saturday, December 13,  7:00 PM ET",
+        "location": "UFC Apex",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 323: Dvalishvili vs. Yan 2",
+        "date_and_time": "Saturday, December  6, 2025",
+        "location": "T-Mobile Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Tsarukyan vs. Hooker",
+        "date_and_time": "Saturday, November 22, 2025",
+        "location": "Ali Bin Hamad al-Attiyah Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 322: Della Maddalena vs. Makhachev",
+        "date_and_time": "Saturday, November 15, 2025",
+        "location": "Madison Square Garden",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Bonfim vs. Brown",
+        "date_and_time": "Saturday, November  8, 2025",
+        "location": "UFC Apex",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Garcia vs. Onama",
+        "date_and_time": "Saturday, November  1, 2025",
+        "location": "UFC Apex",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 321: Aspinall vs. Gane",
+        "date_and_time": "Saturday, October 25, 2025",
+        "location": "Etihad Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: de Ridder vs. Allen",
+        "date_and_time": "Saturday, October 18, 2025",
+        "location": "Rogers Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Oliveira vs. Gamrot",
+        "date_and_time": "Saturday, October 11, 2025",
+        "location": "Farmasi Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC 320: Ankalaev vs. Pereira 2",
+        "date_and_time": "Saturday, October  4, 2025",
+        "location": "T-Mobile Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "UFC Fight Night: Ulberg vs. Reyes",
+        "date_and_time": "Saturday, September 27, 2025",
+        "location": "RAC Arena",
+        "promotion": "UFC"
+    },
+    {
+        "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
+        "date_and_time": "Sunday, March  8,  9:00 PM ET",
+        "location": "Meta APEX",
+        "promotion": "Zuffa"
+    },
+    {
+        "event_name": "Zuffa Boxing 3: Ajagba vs. Martin",
+        "date_and_time": "Sunday, February 15,  9:00 PM ET",
+        "location": "Meta APEX",
+        "promotion": "Zuffa"
+    },
+    {
+        "event_name": "Zuffa Boxing 2: Valenzuela vs. Torres",
+        "date_and_time": "Sunday, February  1,  6:00 PM ET",
+        "location": "Meta APEX",
+        "promotion": "Zuffa"
+    },
+    {
+        "event_name": "Zuffa Boxing 1: Walsh vs. Ocampo",
+        "date_and_time": "Friday, January 23,  5:30 PM ET",
+        "location": "Meta APEX",
+        "promotion": "Zuffa"
+    },
+    {
+        "event_name": "PFL Boston",
+        "date_and_time": "Thursday, April 16,  7:00 PM ET",
+        "location": "Agganis Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Chicago",
+        "date_and_time": "Saturday, April 11,  7:00 PM ET",
+        "location": "Chicago, IL",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Pittsburgh: Eblen vs. Battle",
+        "date_and_time": "Saturday, March 28,  7:00 PM ET",
+        "location": "UMPC Events Center",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Madrid: Van Steenis vs. Edwards 2",
+        "date_and_time": "Friday, March 20,  1:00 PM ET",
+        "location": "Palacio Vistalegre",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Dubai: Nurmagomedov vs. Davis",
+        "date_and_time": "Saturday, February  7,  9:00 AM ET",
+        "location": "Coca-Cola Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Africa 4: 2025 Finals",
+        "date_and_time": "Saturday, December 20, 11:00 AM ET",
+        "location": "Sofitel Dome",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Europe 4: 2025 Finals",
+        "date_and_time": "Saturday, December 13, 11:00 AM ET",
+        "location": "LDLC Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL MENA 4: 2025 Finals",
+        "date_and_time": "Friday, December  5, 2025",
+        "location": "Dhahran Expo",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Africa 3: 2025 Semifinals",
+        "date_and_time": "Saturday, October 18, 2025",
+        "location": "The BK Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Champions Series 2: Nurmagomedov vs. H...",
+        "date_and_time": "Friday, October  3, 2025",
+        "location": "Coca-Cola Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL MENA 3: 2025 Semifinals",
+        "date_and_time": "Saturday, September 27, 2025",
+        "location": "The Green Halls",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Europe 3: Nantes 2025",
+        "date_and_time": "Friday, September 26, 2025",
+        "location": "Zenith Nantes Metropole",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL World Tournament 10: 2025 Finals",
+        "date_and_time": "Thursday, August 21, 2025",
+        "location": "Seminole Hard Rock Hotel & Casino",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL World Tournament 9: 2025 Finals",
+        "date_and_time": "Friday, August 15, 2025",
+        "location": "Bojangles Coliseum",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Africa 2: Johannesburg",
+        "date_and_time": "Saturday, August  9, 2025",
+        "location": "Big Top Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL World Tournament 8: 2025 Finals",
+        "date_and_time": "Friday, August  1, 2025",
+        "location": "Jim Whelan Boardwalk Hall",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Africa 1: Cape Town 2025",
+        "date_and_time": "Saturday, July 19, 2025",
+        "location": "GrandWest Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Europe 2: Brussels 2025",
+        "date_and_time": "Saturday, July  5, 2025",
+        "location": "ING Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL MENA 2: Riyadh 2025",
+        "date_and_time": "Friday, July  4, 2025",
+        "location": "The Green Halls",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL World Tournament 7: 2025 Semifinals",
+        "date_and_time": "Friday, June 27, 2025",
+        "location": "Wintrust Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL World Tournament 6: 2025 Semifinals",
+        "date_and_time": "Friday, June 20, 2025",
+        "location": "INTRUST Bank Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL World Tournament 5: 2025 Semifinals",
+        "date_and_time": "Thursday, June 12, 2025",
+        "location": "Nashville Municipal Auditorium",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Europe 2025: First Round 2 (cancelled)",
+        "date_and_time": "Saturday, May 24, 2025",
+        "location": "Accor Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL Europe 1: Belfast 2025",
+        "date_and_time": "Saturday, May 10, 2025",
+        "location": "SSE Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "PFL MENA 1: Jeddah 2025",
+        "date_and_time": "Friday, May  9, 2025",
+        "location": "Onyx Arena",
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "Pagan vs Jimenez",
+        "date_and_time": "Tuesday, 10 February 2026",
+        "location": "GLC Live20 Monroe, Michigan, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Xhoxhaj vs Seifkhani",
+        "date_and_time": "Saturday, 14 February 2026",
+        "location": "Hallensportzentrum, Lahr, Germany",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Ajagba vs Martin",
+        "date_and_time": "Sunday, 15 February 2026",
+        "location": "Meta Apex, Las Vegas, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Nishida vs Mercado",
+        "date_and_time": "Sunday, 15 February 2026",
+        "location": "Sumiyoshi SportsCenter, Osaka, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Garcia vs Barrios",
+        "date_and_time": "Saturday, 21 February 2026",
+        "location": "T-Mobile Arena, Las Vegas, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Wood Vs Warrington II",
+        "date_and_time": "Saturday, 21 February 2026",
+        "location": "Motorpoint Arena, Nottingham, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Shields vs Dezurn II",
+        "date_and_time": "Sunday, 22 February 2026",
+        "location": "Little Ceasars Arena, Detroit, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Giron vs Torres",
+        "date_and_time": "Friday, 27 February 2026",
+        "location": "University of Texas, Arlington, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Navarrete vs Nunez",
+        "date_and_time": "Saturday, 28 February 2026",
+        "location": "Desert Diamond Arena, Glendale, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Cooper vs Ursu",
+        "date_and_time": "Saturday, 28 February 2026",
+        "location": "Vaillant Live, Derby, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Pierce vs Parra",
+        "date_and_time": "Saturday, 28 February 2026",
+        "location": "Turning Stone Resort & Casino, Verona, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Butler vs Hiseni",
+        "date_and_time": "Thursday, 5 March 2026",
+        "location": "Montreal Casino, Montreal, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Fress vs Kahrovic",
+        "date_and_time": "Saturday, 7 March 2026",
+        "location": "Messehalle, Magdeburg, Germany",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Rozicki vs Mellado",
+        "date_and_time": "Saturday, 7 March 2026",
+        "location": "Centre 200, Sydney, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Opetaia vs Glanton",
+        "date_and_time": "Sunday, 8 March 2026",
+        "location": "Meta Apex, Las Vegas, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Dickens vs Cacace",
+        "date_and_time": "Saturday, 14 March 2026",
+        "location": "3Arena, Dublin, Ireland",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Donaire vs Masuda",
+        "date_and_time": "Sunday, 15 March 2026",
+        "location": "Yokohama Buntai, Yokohama, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Conlan vs Walsh",
+        "date_and_time": "Friday, 20 March 2026",
+        "location": "The SSE Arena, Belfast, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Fundora vs Thurman",
+        "date_and_time": "Saturday, 28 March 2026",
+        "location": "MGM Grand, Grand Garden Arena, Las Vegas, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Itauma vs Franklin Jr",
+        "date_and_time": "Saturday, 28 March 2026",
+        "location": "Co-op Live Arena, Manchester, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Wilder vs Chisora",
+        "date_and_time": "Saturday, 4 April 2026",
+        "location": "O2 Arena, Greenwich, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Price vs Aquino",
+        "date_and_time": "Saturday, 4 April 2026",
+        "location": "Utilita Arena Cardiff, Cardiff, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Dubois vs Harper",
+        "date_and_time": "Sunday, 5 April 2026",
+        "location": "Olympia, Kensington, United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Fury vs Makhmudov",
+        "date_and_time": "Saturday, 11 April 2026",
+        "location": "in the United Kingdom",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Mielnicki Jr vs Huerta",
+        "date_and_time": "Saturday, 11 April 2026",
+        "location": "Boardwalk Hall, Atlantic City, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Barrett vs Acosta",
+        "date_and_time": "Saturday, 11 April 2026",
+        "location": "in Spain",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Simsri vs Cordova",
+        "date_and_time": "Monday, 13 April 2026",
+        "location": "Korakuen Hall, Tokyo, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Adams vs Agyarko",
+        "date_and_time": "Saturday, 18 April 2026",
+        "location": "California, United States",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jukembayev vs Ergashev",
+        "date_and_time": "Saturday, 9 May 2026",
+        "location": "Humo Arena, Tashkent, Uzbekistan",
+        "promotion": "Boxing"
+    }
+]
