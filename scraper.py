@@ -2,7 +2,8 @@ import asyncio
 import json
 import logging
 import httpx
-from datetime import datetime
+import re
+from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 
 # Setup logging
@@ -16,8 +17,79 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+def parse_event_date(date_str):
+    """
+    Parses various date formats and returns (datetime_obj, formatted_str).
+    Returns (None, original_str) if parsing fails.
+    """
+    now = datetime.now()
+    today = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    current_year = now.year
+    
+    # Remove day names (Monday, etc.) and ordinal suffixes (st, nd, rd, th)
+    clean = re.sub(r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s*', '', date_str).strip()
+    clean = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', clean)
+    clean = clean.replace('.', '').strip()
+    clean = re.sub(r'\s+', ' ', clean)
+    
+    dt = None
+    
+    # Try parsing with year if 4 digits are present
+    if re.search(r'\b\d{4}\b', clean):
+        for fmt in ["%B %d, %Y", "%b %d, %Y", "%B %d %Y", "%b %d %Y"]:
+            try:
+                dt = datetime.strptime(clean, fmt)
+                break
+            except ValueError:
+                continue
+    
+    # Try parsing without year
+    if not dt:
+        for fmt in ["%B %d", "%b %d"]:
+            try:
+                dt = datetime.strptime(clean, fmt)
+                dt = dt.replace(year=current_year)
+                # If the date is more than 6 months in the past, it might be for next year
+                # but usually sports scrapers for "Upcoming" events don't have this ambiguity 
+                # or they specify the year. We'll stick to current year for now.
+                break
+            except ValueError:
+                continue
+                
+    if not dt:
+        return None, date_str
+        
+    # Return normalized format
+    return dt, dt.strftime("%A, %B %d")
+
+def split_date_time(dt_str):
+    if not dt_str or dt_str == "N/A":
+        return "N/A", "N/A"
+    
+    # Handle common "at" separator: "Saturday, February 7th at 5:00 PM"
+    if " at " in dt_str:
+        date_part, time_part = dt_str.split(" at ", 1)
+        return date_part.strip(), time_part.strip()
+        
+    # Regex to find time: e.g., "3:00 AM ET", "12:00 PM", "7:30 PM"
+    time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM)(?:\s+\w+)?)', dt_str)
+    if time_match:
+        time_part = time_match.group(1).strip()
+        date_part = dt_str[:time_match.start()].strip(", ")
+        return date_part, time_part
+        
+    # If no time found, it's just a date
+    return dt_str.strip(), "N/A"
+
+def format_boxing_date(date_str):
+    # This is now handled by parse_event_date, but keeping a wrapper if needed
+    _, formatted = parse_event_date(date_str)
+    return formatted
+
 async def scrape_tapology(client, url, promotion_name):
     logger.info(f"Scraping Tapology for {promotion_name}: {url}")
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    yesterday = today - timedelta(days=1)
     try:
         response = await client.get(url, timeout=30.0)
         response.raise_for_status()
@@ -36,25 +108,45 @@ async def scrape_tapology(client, url, promotion_name):
                 name = name_elem.get_text(strip=True)
                 
                 # Find the span that looks like a date/time
-                date_time = "N/A"
+                date_time_raw = "N/A"
                 for span in row.select('.promotion span'):
                     text = span.get_text(strip=True)
                     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
                     if any(day in text for day in days):
-                        date_time = text
+                        date_time_raw = text
                         break
                 
-                # Location
-                venue_elem = row.select_one('.geography span.hidden.md\\:inline:nth-of-type(1)')
-                city_elem = row.select_one('.geography span.hidden.md\\:inline:nth-of-type(2)')
+                event_date_raw, event_time = split_date_time(date_time_raw)
                 
-                venue = venue_elem.get_text(strip=True) if venue_elem else ""
-                city = city_elem.get_text(strip=True) if city_elem else ""
-                location = f"{venue}, {city}".strip(", ")
+                dt, event_date = parse_event_date(event_date_raw)
+                
+                # Filter out events older than yesterday
+                if dt and dt < yesterday:
+                    continue
+                
+                # Location - Try to get city name (look for the first span that doesn't look like a venue)
+                geo_spans = row.select('.geography span')
+                location = "N/A"
+                venue_keywords = ['arena', 'stadium', 'center', 'apex', 'pavilion', 'hall', 'garden', 'theatre', 'club', 'house', 'lawn', 'field', 'dome', 'complex', 'square', 'park', 'apogee', 'center']
+                
+                for s in geo_spans:
+                    t = s.get_text(strip=True)
+                    # Skip empty, flag icons, or venue names
+                    if t and not s.find('img') and len(t) > 1:
+                        if not any(kw in t.lower() for kw in venue_keywords):
+                            location = t.split(',')[0].strip()
+                            break
+                
+                # If still N/A, fallback to first available text
+                if location == "N/A":
+                    geo_elem = row.select_one('.geography')
+                    if geo_elem:
+                        location = geo_elem.get_text(strip=True).split(',')[0].strip()
                 
                 events.append({
                     "event_name": name,
-                    "date_and_time": date_time,
+                    "date": event_date,
+                    "time": event_time,
                     "location": location,
                     "promotion": promotion_name
                 })
@@ -68,6 +160,8 @@ async def scrape_tapology(client, url, promotion_name):
 async def scrape_espn(client, url):
     promotion_name = "Boxing"
     logger.info(f"Scraping ESPN Boxing: {url}")
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    yesterday = today - timedelta(days=1)
     try:
         response = await client.get(url, timeout=30.0)
         response.raise_for_status()
@@ -79,7 +173,6 @@ async def scrape_espn(client, url):
             logger.error("Could not find article body on ESPN")
             return []
             
-        current_year = datetime.now().year
         headers = article_body.find_all('h3')
         
         for header in headers:
@@ -91,21 +184,27 @@ async def scrape_espn(client, url):
             date_part = date_part.strip()
             location = location_part.strip()
             
+            # Filter by date before even looking at the fights
+            dt, event_date = parse_event_date(date_part)
+            if dt and dt < yesterday:
+                continue
+                
             ul = header.find_next_sibling('ul')
             if not ul:
                 continue
                 
-            for li in ul.find_all('li'):
+            li = ul.find('li')
+            if li:
                 text = li.get_text(strip=True)
                 if text.lower().startswith("title fight:"):
                     text = text[len("title fight:"):].strip()
                 
                 fight_name = text.split(',', 1)[0].strip()
-                full_dt = f"{date_part}, {current_year}"
                 
                 events.append({
                     "event_name": fight_name,
-                    "date_and_time": full_dt,
+                    "date": event_date,
+                    "time": "N/A", # ESPN schedule doesn't usually show time in these headers
                     "location": location,
                     "promotion": promotion_name
                 })
