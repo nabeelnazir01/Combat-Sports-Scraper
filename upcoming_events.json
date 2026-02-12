@@ -100,7 +100,7 @@
     {
         "event_name": "Zuffa Boxing 3: Ajagba vs. Martin",
         "date": "Sunday, February 15",
-        "time": "7:30 PM ET",
+        "time": "6:00 PM ET",
         "location": "Las Vegas",
         "promotion": "Zuffa"
     },
@@ -145,13 +145,6 @@
         "time": "11:00 AM ET",
         "location": "Lyon",
         "promotion": "PFL"
-    },
-    {
-        "event_name": "Delfine Persoon vs. Caroline Veyre",
-        "date": "Tuesday, February 10",
-        "time": "N/A",
-        "location": "Grand Rapids, Michigan (DAZN)",
-        "promotion": "Boxing"
     },
     {
         "event_name": "Efe Ajagba vs. Charles Martin",
