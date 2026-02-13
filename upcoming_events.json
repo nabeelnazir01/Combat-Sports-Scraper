@@ -176,36 +176,12 @@
         "url": "https://www.tapology.com/fightcenter/events/130455-pfl-europe-4-lyon-2025"
     },
     {
-        "event_name": "Fight Club OC",
-        "date": "Thursday, February 12",
-        "time": "10:00 PM ET",
-        "location": "Costa Mesa",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138943-fight-club-oc"
-    },
-    {
         "event_name": "Shamo Boxing 105",
         "date": "Friday, February 13",
         "time": "10:00 AM ET",
         "location": "Moscow",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139559-shamo-boxing-105"
-    },
-    {
-        "event_name": "TFL 36",
-        "date": "Friday, February 13",
-        "time": "12:00 PM ET",
-        "location": "Warsaw",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/137989-tfl-36"
-    },
-    {
-        "event_name": "Rise",
-        "date": "Friday, February 13",
-        "time": "1:00 PM ET",
-        "location": "Grays",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139623-rise"
     },
     {
         "event_name": "RCC Boxing Night",
@@ -224,68 +200,12 @@
         "url": "https://www.tapology.com/fightcenter/events/139546-xhoxhaj-vs-seifkhani"
     },
     {
-        "event_name": "Diazslan Fight Night",
-        "date": "Saturday, February 14",
-        "time": "2:00 PM ET",
-        "location": "Europe Western Region",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139062-diazslan-fight-night"
-    },
-    {
-        "event_name": "Carnage Fight Series: Ring Wars 2",
-        "date": "Saturday, February 14",
-        "time": "8:00 PM ET",
-        "location": "Fostoria",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/137211-carnage-fight-series-ring-wars-2"
-    },
-    {
-        "event_name": "I HEART Bash Boxing",
-        "date": "Saturday, February 14",
-        "time": "9:00 PM ET",
-        "location": "Burbank",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139672-i-heart-bash-boxing"
-    },
-    {
         "event_name": "Fearless: Muxanga vs. Byfield",
         "date": "Sunday, February 15",
         "time": "2:00 PM ET",
         "location": "Brentwood",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137498-fearless-muxanga-vs-byfield"
-    },
-    {
-        "event_name": "Nishida vs. Mercado: You Will Be The Champ...",
-        "date": "Monday, February 16",
-        "time": "3:00 AM ET",
-        "location": "Kinki Region",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/137372-nishida-vs-mercado"
-    },
-    {
-        "event_name": "Night of Champions XIV",
-        "date": "Friday, February 20",
-        "time": "8:00 PM ET",
-        "location": "Orlando",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139362-night-of-champions-xiv"
-    },
-    {
-        "event_name": "Jara vs. Gerez",
-        "date": "Friday, February 20",
-        "time": "9:00 PM ET",
-        "location": "AR",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139720-jara-vs-gerez"
-    },
-    {
-        "event_name": "Wood vs. Warrington II",
-        "date": "Saturday, February 21",
-        "time": "1:00 PM ET",
-        "location": "England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/135971-wood-vs-warrington-ii"
     },
     {
         "event_name": "Barrios vs. Garcia: The Ring: High Stakes",
@@ -302,14 +222,6 @@
         "location": "Detroit",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/136991-shields-vs-crews-dezurn-ii"
-    },
-    {
-        "event_name": "ProBox Fight Night",
-        "date": "Friday, February 27",
-        "time": "8:00 PM ET",
-        "location": "Arlington",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138569-probox-fight-night"
     },
     {
         "event_name": "Cooper vs. Ursu: Under the Lights",
@@ -336,14 +248,6 @@
         "url": "https://www.tapology.com/fightcenter/events/138221-pierce-vs-parra"
     },
     {
-        "event_name": "Butler vs. Hiseni",
-        "date": "Thursday, March 05",
-        "time": "9:00 PM ET",
-        "location": "Montreal",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138662-perez-vs-chilemba"
-    },
-    {
         "event_name": "Misfits Duel 2",
         "date": "Saturday, March 07",
         "time": "1:00 PM ET",
@@ -352,11 +256,11 @@
         "url": "https://www.tapology.com/fightcenter/events/139796-misfits-duel-2"
     },
     {
-        "event_name": "ProBox Fight Night",
-        "date": "Friday, March 13",
-        "time": "8:00 PM ET",
-        "location": "Kissimmee",
+        "event_name": "Dickens vs. Cacace",
+        "date": "Saturday, March 14",
+        "time": "2:00 PM ET",
+        "location": "Dublin",
         "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139361-probox-fight-night"
+        "url": "https://www.tapology.com/fightcenter/events/137878-dickens-vs-cacace"
     }
 ]
