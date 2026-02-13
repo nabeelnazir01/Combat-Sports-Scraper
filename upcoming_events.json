@@ -4,56 +4,84 @@
         "date": "Saturday, August 29",
         "time": "3:00 AM ET",
         "location": "Shanghai",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/137846-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC White House",
         "date": "Sunday, June 14",
         "time": "6:00 PM ET",
         "location": "Washington",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/137848-ufc-white-house"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night",
         "date": "Saturday, May 30",
         "time": "3:00 AM ET",
         "location": "MO",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/139238-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night",
         "date": "Saturday, April 18",
         "time": "6:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/139670-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC 327",
         "date": "Saturday, April 11",
         "time": "6:00 PM ET",
         "location": "Miami",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/137847-ufc-327"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night",
         "date": "Saturday, April 04",
         "time": "6:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/138212-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night: Adesanya vs. Pyfer",
         "date": "Saturday, March 28",
         "time": "5:00 PM ET",
         "location": "Seattle",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/136873-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night: Evloev vs. Murphy",
@@ -68,54 +96,79 @@
         "date": "Saturday, March 14",
         "time": "6:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/136874-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC 326: Holloway vs. Oliveira 2",
         "date": "Saturday, March 07",
         "time": "5:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/136871-ufc-326-holloway-vs-oliveira-2"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night: Moreno vs. Kavanagh",
         "date": "Saturday, February 28",
         "time": "5:00 PM ET",
         "location": "Mexico City",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/136702-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night: Strickland vs. Hernandez",
         "date": "Saturday, February 21",
         "time": "5:00 PM ET",
         "location": "Houston",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/136872-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "UFC Fight Night: Royval vs. Kape",
         "date": "Sunday, December 13",
         "time": "7:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/132921-ufc-fight-night"
+=======
+        "promotion": "UFC"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
         "date": "Sunday, March 08",
         "time": "9:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/138955-zuffa-boxing-opetaia-vs-mikaelian"
+=======
+        "promotion": "Zuffa"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "Zuffa Boxing 3: Ajagba vs. Martin",
         "date": "Sunday, February 15",
         "time": "6:00 PM ET",
         "location": "Las Vegas",
+<<<<<<< HEAD
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/138399-ajagba-vs-martin-zuffa-boxing-2"
     },
@@ -126,52 +179,76 @@
         "location": "Dhahran Expo",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/139770-pfl-mena-1-khobar"
+=======
+        "promotion": "Zuffa"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "PFL Boston",
         "date": "Thursday, April 16",
         "time": "7:00 PM ET",
         "location": "Boston",
+<<<<<<< HEAD
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/138222-pfl-boston"
+=======
+        "promotion": "PFL"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "PFL Chicago",
         "date": "Saturday, April 11",
         "time": "7:00 PM ET",
         "location": "Chicago",
+<<<<<<< HEAD
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137169-pfl-chicago"
+=======
+        "promotion": "PFL"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "PFL Pittsburgh: Eblen vs. Battle",
         "date": "Saturday, March 28",
         "time": "7:00 PM ET",
         "location": "Pittsburgh",
+<<<<<<< HEAD
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137168-pfl-pittsburgh"
+=======
+        "promotion": "PFL"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "PFL Madrid: Van Steenis vs. Edwards 2",
         "date": "Friday, March 20",
         "time": "1:00 PM ET",
         "location": "Palacio Vistalegre",
+<<<<<<< HEAD
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137127-pfl-madrid-van-steenis-vs-edwards"
+=======
+        "promotion": "PFL"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "PFL Africa 4: 2025 Finals",
         "date": "Sunday, December 20",
         "time": "11:00 AM ET",
         "location": "Cotonou",
+<<<<<<< HEAD
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
+=======
+        "promotion": "PFL"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     },
     {
         "event_name": "PFL Europe 4: 2025 Finals",
         "date": "Sunday, December 13",
         "time": "11:00 AM ET",
         "location": "Lyon",
+<<<<<<< HEAD
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/130455-pfl-europe-4-lyon-2025"
     },
@@ -358,5 +435,155 @@
         "location": "Kissimmee",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139361-probox-fight-night"
+=======
+        "promotion": "PFL"
+    },
+    {
+        "event_name": "Efe Ajagba vs. Charles Martin",
+        "date": "Sunday, February 15",
+        "time": "N/A",
+        "location": "Las Vegas (Paramount+)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Ryosuke Nishida vs. Bryan Mercado Vazquez",
+        "date": "Sunday, February 15",
+        "time": "N/A",
+        "location": "Osaka, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jin Sasaki vs. TBA",
+        "date": "Thursday, February 19",
+        "time": "N/A",
+        "location": "Tokyo",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Mario Barrios vs. Ryan Garcia",
+        "date": "Saturday, February 21",
+        "time": "N/A",
+        "location": "Las Vegas (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Josh Warrington vs. Leigh Wood",
+        "date": "Saturday, February 21",
+        "time": "N/A",
+        "location": "Nottingham, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Maira Moneo vs. Micaela Soledad Dominguez",
+        "date": "Saturday, February 21",
+        "time": "N/A",
+        "location": "Buenos Aires, Argentina",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jose Ramirez Maciel vs. Luis Rodriguez Ocana",
+        "date": "Saturday, February 21",
+        "time": "N/A",
+        "location": "Hermosillo, Mexico",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Claressa Shields vs. Franchon Crews-Dezurn",
+        "date": "Sunday, February 22",
+        "time": "N/A",
+        "location": "Detroit (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Bradley Wilcox vs. Mark Smither",
+        "date": "Friday, February 27",
+        "time": "N/A",
+        "location": "Brampton, Canada",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Emanuel Navarrete vs. Eduardo Nunez",
+        "date": "Saturday, February 28",
+        "time": "N/A",
+        "location": "Glendale, Arizona (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Elijah Pierce vs. Lorenzo Parra",
+        "date": "Saturday, February 28",
+        "time": "N/A",
+        "location": "Verona, New York (Amazon Prime Video)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Jai Opetaia vs. TBA",
+        "date": "Sunday, March 08",
+        "time": "N/A",
+        "location": "Las Vegas (Paramount+)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "James Dickens vs. Anthony Cacace",
+        "date": "Saturday, March 14",
+        "time": "N/A",
+        "location": "Dublin, Ireland (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Knockout CP Freshmart vs. Shokichi Iwata",
+        "date": "Sunday, March 15",
+        "time": "N/A",
+        "location": "Yokohama, Japan",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Sebastian Fundora vs. Keith Thurman",
+        "date": "Saturday, March 28",
+        "time": "N/A",
+        "location": "Las Vegas (Prime Video PPV)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Moses Itauma vs. Jermaine Franklin Jr.",
+        "date": "Saturday, March 28",
+        "time": "N/A",
+        "location": "Manchester, England (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Deontay Wilder vs. Derek Chisora",
+        "date": "Saturday, April 04",
+        "time": "N/A",
+        "location": "London (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Lauren Price vs. Stephanie Pineiro Aquino",
+        "date": "Saturday, April 04",
+        "time": "N/A",
+        "location": "Cardiff, Wales (DAZN)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Caroline Dubois vs. Terri Harper",
+        "date": "Sunday, April 05",
+        "time": "N/A",
+        "location": "London",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Tyson Fury vs. Arslanbek Makhmudov",
+        "date": "Saturday, April 11",
+        "time": "N/A",
+        "location": "TBA (Netflix)",
+        "promotion": "Boxing"
+    },
+    {
+        "event_name": "Gilberto \"Zurdo\" Ramirez vs. David Benavidez",
+        "date": "Saturday, May 02",
+        "time": "N/A",
+        "location": "Las Vegas (DAZN)",
+        "promotion": "Boxing"
+>>>>>>> eafe1af523e3a253969c3fd6e61acbb415b05d40
     }
 ]
