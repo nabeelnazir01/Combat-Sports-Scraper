@@ -157,6 +157,18 @@ async def scrape_tapology(client, url, promotion_name):
                 if dt and dt < yesterday:
                     continue
                 
+                # Detection of Title Fight
+                row_text = row.get_text(" ", strip=True)
+                is_title_fight = "Title Fight" in row_text
+
+                # Detect if it's a boxing event (excluding Zuffa which should be kept)
+                is_generic_boxing = (promotion_name == "Boxing" or 
+                                    ("boxing" in name.lower() and "zuffa" not in name.lower()))
+
+                # For generic boxing, only add events that are a Title Fight
+                if is_generic_boxing and not is_title_fight:
+                    continue
+
                 # Location - Try to get city name
                 geo_spans = row.select('.geography span')
                 location = "N/A"
