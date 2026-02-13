@@ -96,17 +96,50 @@ async def scrape_tapology(client, url, promotion_name):
         
         soup = BeautifulSoup(response.text, 'html.parser')
         events = []
-        rows = soup.select('div[data-controller="bout-toggler"]')
+        
+        # Handle both promotion pages and FightCenter search pages
+        if "fightcenter?" in url:
+            rows = soup.select('.fightcenterEvents div[data-controller="bout-toggler"]')
+            if not rows:
+                rows = soup.select('.fcEventList div[data-controller="bout-toggler"]')
+        else:
+            rows = soup.select('div[data-controller="bout-toggler"]')
+            
         logger.info(f"Found {len(rows)} potential events for {promotion_name}")
+
         
         for row in rows:
             try:
-                name_elem = row.select_one('.promotion a')
+                # In FightCenter, name might be deeper
+                name_elem = row.select_one('.promotion a[href^="/fightcenter/events/"]')
+                if not name_elem:
+                    # Fallback for promotion pages
+                    name_elem = row.select_one('.promotion a')
+                
                 if not name_elem:
                     continue
                     
                 name = name_elem.get_text(strip=True)
+                event_url = name_elem.get('href', '')
+                if event_url and event_url.startswith('/'):
+                    event_url = f"https://www.tapology.com{event_url}"
                 
+                # Zuffa exclusion for Boxing list
+                if promotion_name == "Boxing":
+                    if "zuffa" in name.lower():
+                        logger.info(f"Excluding Zuffa boxing event: {name}")
+                        continue
+                    
+                    # Also check the promotion link if available
+                    promo_link = row.select_one('a[href^="/fightcenter/promotions/"]')
+                    if promo_link:
+                        promo_text = promo_link.get_text(strip=True).lower()
+                        img = promo_link.select_one('img')
+                        promo_alt = img.get('alt', '').lower() if img else ""
+                        if "zuffa" in promo_text or "zuffa" in promo_alt or "zuffa" in promo_link.get('href', '').lower():
+                            logger.info(f"Excluding Zuffa boxing event by promotion: {name}")
+                            continue
+
                 # Find the span that looks like a date/time
                 date_time_raw = "N/A"
                 for span in row.select('.promotion span'):
@@ -124,31 +157,45 @@ async def scrape_tapology(client, url, promotion_name):
                 if dt and dt < yesterday:
                     continue
                 
-                # Location - Try to get city name (look for the first span that doesn't look like a venue)
+                # Location - Try to get city name
                 geo_spans = row.select('.geography span')
                 location = "N/A"
-                venue_keywords = ['arena', 'stadium', 'center', 'apex', 'pavilion', 'hall', 'garden', 'theatre', 'club', 'house', 'lawn', 'field', 'dome', 'complex', 'square', 'park', 'apogee', 'center']
+                venue_keywords = ['arena', 'stadium', 'center', 'apex', 'pavilion', 'hall', 'garden', 'theatre', 'club', 'house', 'lawn', 'field', 'dome', 'complex', 'square', 'park', 'apogee']
                 
                 for s in geo_spans:
+                    # Skip sport tag
+                    if 'sport' in s.get('class', []):
+                        continue
+                        
                     t = s.get_text(strip=True)
                     # Skip empty, flag icons, or venue names
                     if t and not s.find('img') and len(t) > 1:
                         if not any(kw in t.lower() for kw in venue_keywords):
+                            # Locations often have a comma, or are just names
+                            # Avoid picking up "Boxing & MMA" if it wasn't caught by .sport class
+                            if "Boxing" in t or "MMA" in t:
+                                continue
                             location = t.split(',')[0].strip()
                             break
                 
-                # If still N/A, fallback to first available text
+                # If still N/A, fallback to first available text in geography that isn't sport
                 if location == "N/A":
                     geo_elem = row.select_one('.geography')
                     if geo_elem:
-                        location = geo_elem.get_text(strip=True).split(',')[0].strip()
+                        # Find all text parts and pick the one that looks like a location
+                        parts = [p.strip() for p in geo_elem.get_text(" • ").split("•")]
+                        for p in parts:
+                            if p and "Boxing" not in p and "MMA" not in p and len(p) > 2:
+                                location = p.split(',')[0].strip()
+                                break
                 
                 events.append({
                     "event_name": name,
                     "date": event_date,
                     "time": event_time,
                     "location": location,
-                    "promotion": promotion_name
+                    "promotion": promotion_name,
+                    "url": event_url
                 })
             except Exception as e:
                 logger.error(f"Error parsing Tapology row: {e}")
@@ -157,69 +204,13 @@ async def scrape_tapology(client, url, promotion_name):
         logger.error(f"Failed to load {url}: {e}")
         return []
 
-async def scrape_espn(client, url):
-    promotion_name = "Boxing"
-    logger.info(f"Scraping ESPN Boxing: {url}")
-    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-    yesterday = today - timedelta(days=1)
-    try:
-        response = await client.get(url, timeout=30.0)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        events = []
-        article_body = soup.select_one('.article-body')
-        if not article_body:
-            logger.error("Could not find article body on ESPN")
-            return []
-            
-        headers = article_body.find_all('h3')
-        
-        for header in headers:
-            header_text = header.get_text(strip=True)
-            if ':' not in header_text:
-                continue
-                
-            date_part, location_part = header_text.split(':', 1)
-            date_part = date_part.strip()
-            location = location_part.strip()
-            
-            # Filter by date before even looking at the fights
-            dt, event_date = parse_event_date(date_part)
-            if dt and dt < yesterday:
-                continue
-                
-            ul = header.find_next_sibling('ul')
-            if not ul:
-                continue
-                
-            li = ul.find('li')
-            if li:
-                text = li.get_text(strip=True)
-                if text.lower().startswith("title fight:"):
-                    text = text[len("title fight:"):].strip()
-                
-                fight_name = text.split(',', 1)[0].strip()
-                
-                events.append({
-                    "event_name": fight_name,
-                    "date": event_date,
-                    "time": "N/A", # ESPN schedule doesn't usually show time in these headers
-                    "location": location,
-                    "promotion": promotion_name
-                })
-        logger.info(f"Scraped {len(events)} events from ESPN")
-        return events
-    except Exception as e:
-        logger.error(f"Failed to load ESPN: {e}")
-        return []
 
 async def main():
     urls = [
         ("https://www.tapology.com/fightcenter/promotions/1-ultimate-fighting-championship-ufc", "UFC"),
         ("https://www.tapology.com/fightcenter/promotions/6299-zuffa-boxing-zb", "Zuffa"),
         ("https://www.tapology.com/fightcenter/promotions/1969-professional-fighters-league-pfl", "PFL"),
-        ("https://www.espn.com/boxing/story/_/id/12508267/boxing-schedule", "Boxing")
+        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv", "Boxing")
     ]
     
     all_events = []
@@ -229,8 +220,7 @@ async def main():
         for url, promo in urls:
             if "tapology.com" in url:
                 tasks.append(scrape_tapology(client, url, promo))
-            elif "espn.com" in url:
-                tasks.append(scrape_espn(client, url))
+
         
         results = await asyncio.gather(*tasks)
         for events in results:
