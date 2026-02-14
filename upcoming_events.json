@@ -154,7 +154,7 @@
     {
         "event_name": "PFL Madrid: Van Steenis vs. Edwards 2",
         "date": "Friday, March 20",
-        "time": "1:00 PM ET",
+        "time": "12:00 PM ET",
         "location": "Palacio Vistalegre",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137127-pfl-madrid-van-steenis-vs-edwards"
@@ -174,14 +174,6 @@
         "location": "Lyon",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/130455-pfl-europe-4-lyon-2025"
-    },
-    {
-        "event_name": "Shamo Boxing 105",
-        "date": "Friday, February 13",
-        "time": "10:00 AM ET",
-        "location": "Moscow",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139559-shamo-boxing-105"
     },
     {
         "event_name": "RCC Boxing Night",
@@ -262,5 +254,21 @@
         "location": "Dublin",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137878-dickens-vs-cacace"
+    },
+    {
+        "event_name": "Collazo vs. Jerusalem II",
+        "date": "Saturday, March 14",
+        "time": "8:00 PM ET",
+        "location": "CA",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139741-collazo-vs-jerusalem-ii"
+    },
+    {
+        "event_name": "Liddard vs. Denny",
+        "date": "Saturday, March 21",
+        "time": "2:00 PM ET",
+        "location": "London",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139590-liddard-vs-denny"
     }
 ]
