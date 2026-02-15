@@ -176,22 +176,6 @@
         "url": "https://www.tapology.com/fightcenter/events/130455-pfl-europe-4-lyon-2025"
     },
     {
-        "event_name": "RCC Boxing Night",
-        "date": "Saturday, February 14",
-        "time": "10:00 AM ET",
-        "location": "Chelyabinsk",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138863-rcc-boxing-night"
-    },
-    {
-        "event_name": "Xhoxhaj vs. Seifkhani",
-        "date": "Saturday, February 14",
-        "time": "12:00 PM ET",
-        "location": "Lahr/Schwarzwald",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139546-xhoxhaj-vs-seifkhani"
-    },
-    {
         "event_name": "Fearless: Muxanga vs. Byfield",
         "date": "Sunday, February 15",
         "time": "2:00 PM ET",
@@ -256,19 +240,27 @@
         "url": "https://www.tapology.com/fightcenter/events/137878-dickens-vs-cacace"
     },
     {
-        "event_name": "Collazo vs. Jerusalem II",
-        "date": "Saturday, March 14",
-        "time": "8:00 PM ET",
-        "location": "CA",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139741-collazo-vs-jerusalem-ii"
-    },
-    {
         "event_name": "Liddard vs. Denny",
         "date": "Saturday, March 21",
         "time": "2:00 PM ET",
         "location": "London",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139590-liddard-vs-denny"
+    },
+    {
+        "event_name": "ProBox Fight Night: Martinez vs. Aleem",
+        "date": "Saturday, March 21",
+        "time": "9:00 PM ET",
+        "location": "CA",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139806-probox-fight-night-martinez-vs-aleem"
+    },
+    {
+        "event_name": "Fundora vs. Thurman",
+        "date": "Saturday, March 28",
+        "time": "9:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139052-fundora-vs-thurman"
     }
 ]
