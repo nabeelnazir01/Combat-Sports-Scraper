@@ -168,22 +168,6 @@
         "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
     },
     {
-        "event_name": "PFL Europe 4: 2025 Finals",
-        "date": "Sunday, December 13",
-        "time": "11:00 AM ET",
-        "location": "Lyon",
-        "promotion": "PFL",
-        "url": "https://www.tapology.com/fightcenter/events/130455-pfl-europe-4-lyon-2025"
-    },
-    {
-        "event_name": "Fearless: Muxanga vs. Byfield",
-        "date": "Sunday, February 15",
-        "time": "2:00 PM ET",
-        "location": "Brentwood",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/137498-fearless-muxanga-vs-byfield"
-    },
-    {
         "event_name": "Barrios vs. Garcia: The Ring: High Stakes",
         "date": "Saturday, February 21",
         "time": "8:00 PM ET",
@@ -262,5 +246,21 @@
         "location": "Las Vegas",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139052-fundora-vs-thurman"
+    },
+    {
+        "event_name": "Taduran vs. Perez",
+        "date": "Friday, April 03",
+        "time": "9:00 PM ET",
+        "location": "Temecula",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139784-taduran-vs-perez"
+    },
+    {
+        "event_name": "Price vs. Aquino",
+        "date": "Saturday, April 04",
+        "time": "1:00 PM ET",
+        "location": "Cardiff",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139188-price-vs-aquino"
     }
 ]
