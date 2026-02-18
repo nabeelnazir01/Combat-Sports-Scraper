@@ -104,12 +104,36 @@
         "url": "https://www.tapology.com/fightcenter/events/136872-ufc-fight-night"
     },
     {
+        "event_name": "UFC Fight Night: Bautista vs. Oliveira",
+        "date": "Saturday, February 07",
+        "time": "5:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136782-ufc-fight-night"
+    },
+    {
         "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
         "date": "Sunday, March 08",
         "time": "9:00 PM ET",
         "location": "Las Vegas",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/138955-zuffa-boxing-opetaia-vs-mikaelian"
+    },
+    {
+        "event_name": "Zuffa Boxing 3: Ajagba vs. Martin",
+        "date": "Sunday, February 15",
+        "time": "6:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/138399-ajagba-vs-martin-zuffa-boxing-2"
+    },
+    {
+        "event_name": "Zuffa Boxing 2: Valenzuela vs. Torres",
+        "date": "Sunday, February 01",
+        "time": "6:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/138880-zuffa-boxing-2-valenzuela-vs-torrez"
     },
     {
         "event_name": "PFL MENA 1: Khobar",
@@ -158,6 +182,14 @@
         "location": "Palacio Vistalegre",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137127-pfl-madrid-van-steenis-vs-edwards"
+    },
+    {
+        "event_name": "PFL Dubai: Nurmagomedov vs. Davis",
+        "date": "Saturday, February 07",
+        "time": "9:00 AM ET",
+        "location": "Dubai",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/136268-pfl-nurmagomedov-vs-davis"
     },
     {
         "event_name": "PFL Africa 4: 2025 Finals",
@@ -262,5 +294,165 @@
         "location": "Cardiff",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139188-price-vs-aquino"
+    },
+    {
+        "event_name": "Iglesias vs. Silyagin",
+        "date": "Thursday, April 09",
+        "time": "8:00 PM ET",
+        "location": "Montreal",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139689-iglesias-vs-silyagin"
+    },
+    {
+        "event_name": "Fury vs. Makhmudov",
+        "date": "Saturday, April 11",
+        "time": "2:00 PM ET",
+        "location": "London",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139108-fury-vs-makhmudov"
+    },
+    {
+        "event_name": "Simsri vs. Mendoza",
+        "date": "Monday, April 13",
+        "time": "3:00 AM ET",
+        "location": "Tokyo",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138611-simsri-vs-mendoza"
+    },
+    {
+        "event_name": "Collins vs. Lorente II",
+        "date": "Saturday, April 18",
+        "time": "12:00 AM ET",
+        "location": "Glasgow",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140048-collins-vs-lorente-ii"
+    },
+    {
+        "event_name": "Smith vs. Morrell",
+        "date": "Saturday, April 18",
+        "time": "2:00 PM ET",
+        "location": "Liverpool",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140081-smith-vs-morrell"
+    },
+    {
+        "event_name": "Benavidez vs. Zurdo",
+        "date": "Saturday, May 02",
+        "time": "9:00 PM ET",
+        "location": "US",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/136363-benavidez-vs-zurdo"
+    },
+    {
+        "event_name": "Wardley vs. Dubois: Don't Blink",
+        "date": "Saturday, May 09",
+        "time": "2:00 PM ET",
+        "location": "Burnley",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139645-wardley-vs-dubois"
+    },
+    {
+        "event_name": "Fearless: Muxanga vs. Byfield",
+        "date": "Sunday, February 15",
+        "time": "2:00 PM ET",
+        "location": "Brentwood",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/137498-fearless-muxanga-vs-byfield"
+    },
+    {
+        "event_name": "Mosqueda vs. Maikol",
+        "date": "Saturday, February 14",
+        "time": "9:00 PM ET",
+        "location": "State of Mexico",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139934-mosqueda-vs-maikol"
+    },
+    {
+        "event_name": "Xhoxhaj vs. Seifkhani",
+        "date": "Saturday, February 14",
+        "time": "12:00 PM ET",
+        "location": "Lahr/Schwarzwald",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139546-xhoxhaj-vs-seifkhani"
+    },
+    {
+        "event_name": "RCC Boxing Night",
+        "date": "Saturday, February 14",
+        "time": "10:00 AM ET",
+        "location": "Chelyabinsk",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138863-rcc-boxing-night"
+    },
+    {
+        "event_name": "Shamo Boxing 105",
+        "date": "Friday, February 13",
+        "time": "10:00 AM ET",
+        "location": "Moscow",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139559-shamo-boxing-105"
+    },
+    {
+        "event_name": "Pagan vs. Jimenez",
+        "date": "Tuesday, February 10",
+        "time": "3:00 PM ET",
+        "location": "Grand Rapids",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/137148-veyre-vs-persoon"
+    },
+    {
+        "event_name": "MFL 46",
+        "date": "Saturday, February 07",
+        "time": "3:00 PM ET",
+        "location": "Chambly",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138089-mfl-46"
+    },
+    {
+        "event_name": "Ball vs. Figueroa",
+        "date": "Saturday, February 07",
+        "time": "2:00 PM ET",
+        "location": "Liverpool",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/137101-ball-vs-figueroa"
+    },
+    {
+        "event_name": "BFC 3",
+        "date": "Saturday, February 07",
+        "time": "12:00 PM ET",
+        "location": "Wuppertal",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138033-bfc-3"
+    },
+    {
+        "event_name": "Holzken Fight Night 8",
+        "date": "Saturday, February 07",
+        "time": "12:00 PM ET",
+        "location": "Helmond",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139368-holzken-fight-night-8"
+    },
+    {
+        "event_name": "Hoti vs. Mwakisopile",
+        "date": "Saturday, February 07",
+        "time": "12:00 PM ET",
+        "location": "Basel",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139374-hoti-vs-mwakisopile"
+    },
+    {
+        "event_name": "Medina vs. Curiel",
+        "date": "Friday, February 06",
+        "time": "9:00 PM ET",
+        "location": "Guadalajara",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/137914-medina-vs-curiel"
+    },
+    {
+        "event_name": "Unal vs. Zogaj",
+        "date": "Thursday, February 05",
+        "time": "8:00 PM ET",
+        "location": "Montreal",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/137150-ramirez-vs"
     }
 ]
