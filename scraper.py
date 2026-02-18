@@ -256,18 +256,7 @@ async def main():
                     page += 1
             else:
                 events, _ = await scrape_tapology(client, original_url, promo)
-                all_events.extend(events)
-
-        # # Deduplicate events by name and date
-        # seen = set()
-        # unique_events = []
-        # for event in all_events:
-        #     key = (event['event_name'], event['date'])
-        #     if key not in seen:
-        #         seen.add(key)
-        #         unique_events.append(event)
-        # all_events = unique_events
-    
+                all_events.extend(events)   
         
     with open('upcoming_events.json', 'w', encoding='utf-8') as f:
         json.dump(all_events, f, indent=4, ensure_ascii=False)
