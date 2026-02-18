@@ -221,10 +221,10 @@ async def scrape_tapology(client, url, promotion_name):
                 })
             except Exception as e:
                 logger.error(f"Error parsing Tapology row: {e}")
-        return events
+        return events, len(rows)
     except Exception as e:
         logger.error(f"Failed to load {url}: {e}")
-        return []
+        return [], 0
 
 
 async def main():
@@ -233,27 +233,40 @@ async def main():
         ("https://www.tapology.com/fightcenter/promotions/6299-zuffa-boxing-zb", "Zuffa"),
         ("https://www.tapology.com/fightcenter/promotions/1969-professional-fighters-league-pfl", "PFL"),
         ("https://www.tapology.com/fightcenter?sport=boxing&group=tv", "Boxing"),
-        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&page=2", "Boxing"),
         ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&schedule=results", "Boxing"),
         ("https://www.tapology.com/fightcenter?sport=mma&group=tv&schedule=results", "Other"),
-        ("https://www.tapology.com/fightcenter?sport=mma&group=tv", "Other"),
-        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&page=2", "Other"),
-        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&page=3", "Other"),
-        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&page=4", "Other")
+        ("https://www.tapology.com/fightcenter?sport=mma&group=tv", "Other")
     ]
     
     all_events = []
     
     async with httpx.AsyncClient(headers=HEADERS, follow_redirects=True) as client:
-        tasks = []
-        for url, promo in urls:
-            if "tapology.com" in url:
-                tasks.append(scrape_tapology(client, url, promo))
+        for original_url, promo in urls:
+            if "tapology.com" not in original_url:
+                continue
+                
+            if original_url.endswith("&group=tv"):
+                page = 1
+                while True:
+                    url = f"{original_url}&page={page}" if page > 1 else original_url
+                    events, row_count = await scrape_tapology(client, url, promo)
+                    all_events.extend(events)
+                    if row_count == 0:
+                        break
+                    page += 1
+            else:
+                events, _ = await scrape_tapology(client, original_url, promo)
+                all_events.extend(events)
 
-        
-        results = await asyncio.gather(*tasks)
-        for events in results:
-            all_events.extend(events)
+        # # Deduplicate events by name and date
+        # seen = set()
+        # unique_events = []
+        # for event in all_events:
+        #     key = (event['event_name'], event['date'])
+        #     if key not in seen:
+        #         seen.add(key)
+        #         unique_events.append(event)
+        # all_events = unique_events
     
         
     with open('upcoming_events.json', 'w', encoding='utf-8') as f:
