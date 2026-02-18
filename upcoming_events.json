@@ -454,7 +454,6 @@
         "location": "Montreal",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137150-ramirez-vs"
-<<<<<<< HEAD
     },
     {
         "event_name": "Rousey vs. Carano",
@@ -463,7 +462,5 @@
         "location": "Inglewood",
         "promotion": "Other",
         "url": "https://www.tapology.com/fightcenter/events/140072-rousey-vs-carano"
-=======
->>>>>>> d7aa15543b31227c557ed98ee34a080a6a118db8
     }
 ]
