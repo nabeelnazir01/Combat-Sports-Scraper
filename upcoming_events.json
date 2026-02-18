@@ -1,0 +1,266 @@
+[
+    {
+        "event_name": "UFC Fight Night",
+        "date": "Saturday, August 29",
+        "time": "3:00 AM ET",
+        "location": "Shanghai",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/137846-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC White House",
+        "date": "Sunday, June 14",
+        "time": "6:00 PM ET",
+        "location": "Washington",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/137848-ufc-white-house"
+    },
+    {
+        "event_name": "UFC Fight Night",
+        "date": "Saturday, May 30",
+        "time": "3:00 AM ET",
+        "location": "MO",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/139238-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night",
+        "date": "Saturday, April 25",
+        "time": "6:00 PM ET",
+        "location": "Paramount+",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night",
+        "date": "Saturday, April 18",
+        "time": "6:00 PM ET",
+        "location": "Ottawa",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/139670-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC 327",
+        "date": "Saturday, April 11",
+        "time": "6:00 PM ET",
+        "location": "Miami",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/137847-ufc-327"
+    },
+    {
+        "event_name": "UFC Fight Night",
+        "date": "Saturday, April 04",
+        "time": "6:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/138212-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night: Adesanya vs. Pyfer",
+        "date": "Saturday, March 28",
+        "time": "5:00 PM ET",
+        "location": "Seattle",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136873-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night: Evloev vs. Murphy",
+        "date": "Saturday, March 21",
+        "time": "1:00 PM ET",
+        "location": "The 02",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136856-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night: Emmett vs. Vallejos",
+        "date": "Saturday, March 14",
+        "time": "6:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136874-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC 326: Holloway vs. Oliveira 2",
+        "date": "Saturday, March 07",
+        "time": "5:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136871-ufc-326-holloway-vs-oliveira-2"
+    },
+    {
+        "event_name": "UFC Fight Night: Moreno vs. Kavanagh",
+        "date": "Saturday, February 28",
+        "time": "5:00 PM ET",
+        "location": "Mexico City",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136702-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night: Strickland vs. Hernandez",
+        "date": "Saturday, February 21",
+        "time": "5:00 PM ET",
+        "location": "Houston",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/136872-ufc-fight-night"
+    },
+    {
+        "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
+        "date": "Sunday, March 08",
+        "time": "9:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/138955-zuffa-boxing-opetaia-vs-mikaelian"
+    },
+    {
+        "event_name": "PFL MENA 1: Khobar",
+        "date": "Friday, May 08",
+        "time": "10:30 AM ET",
+        "location": "Dhahran Expo",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/139770-pfl-mena-1-khobar"
+    },
+    {
+        "event_name": "PFL Boston",
+        "date": "Thursday, April 16",
+        "time": "7:00 PM ET",
+        "location": "Boston",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/138222-pfl-boston"
+    },
+    {
+        "event_name": "PFL Chicago",
+        "date": "Saturday, April 11",
+        "time": "7:00 PM ET",
+        "location": "Chicago",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/137169-pfl-chicago"
+    },
+    {
+        "event_name": "PFL Africa 1: Pretoria",
+        "date": "Friday, April 10",
+        "time": "12:00 PM ET",
+        "location": "Pretoria",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
+    },
+    {
+        "event_name": "PFL Pittsburgh: Eblen vs. Battle",
+        "date": "Saturday, March 28",
+        "time": "7:00 PM ET",
+        "location": "Pittsburgh",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/137168-pfl-pittsburgh"
+    },
+    {
+        "event_name": "PFL Madrid: Van Steenis vs. Edwards 2",
+        "date": "Friday, March 20",
+        "time": "12:00 PM ET",
+        "location": "Palacio Vistalegre",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/137127-pfl-madrid-van-steenis-vs-edwards"
+    },
+    {
+        "event_name": "PFL Africa 4: 2025 Finals",
+        "date": "Sunday, December 20",
+        "time": "11:00 AM ET",
+        "location": "Cotonou",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
+    },
+    {
+        "event_name": "Barrios vs. Garcia: The Ring: High Stakes",
+        "date": "Saturday, February 21",
+        "time": "8:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/136905-barrios-vs-garcia"
+    },
+    {
+        "event_name": "Shields vs. Crews-Dezurn II",
+        "date": "Sunday, February 22",
+        "time": "8:00 PM ET",
+        "location": "Detroit",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/136991-shields-vs-crews-dezurn-ii"
+    },
+    {
+        "event_name": "Cooper vs. Ursu: Under the Lights",
+        "date": "Saturday, February 28",
+        "time": "2:00 PM ET",
+        "location": "Derby",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138671-cooper-vs-ursu-under-the-lights"
+    },
+    {
+        "event_name": "Navarrete vs. Nunez",
+        "date": "Saturday, February 28",
+        "time": "8:00 PM ET",
+        "location": "Glendale",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/135512-nunez-vs-navarrete"
+    },
+    {
+        "event_name": "Pierce vs. Parra",
+        "date": "Saturday, February 28",
+        "time": "9:00 PM ET",
+        "location": "Verona",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138221-pierce-vs-parra"
+    },
+    {
+        "event_name": "Misfits Duel 2",
+        "date": "Saturday, March 07",
+        "time": "1:00 PM ET",
+        "location": "Derby",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139796-misfits-duel-2"
+    },
+    {
+        "event_name": "Dickens vs. Cacace",
+        "date": "Saturday, March 14",
+        "time": "2:00 PM ET",
+        "location": "Dublin",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/137878-dickens-vs-cacace"
+    },
+    {
+        "event_name": "Liddard vs. Denny",
+        "date": "Saturday, March 21",
+        "time": "2:00 PM ET",
+        "location": "London",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139590-liddard-vs-denny"
+    },
+    {
+        "event_name": "ProBox Fight Night: Martinez vs. Aleem",
+        "date": "Saturday, March 21",
+        "time": "9:00 PM ET",
+        "location": "CA",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139806-probox-fight-night-martinez-vs-aleem"
+    },
+    {
+        "event_name": "Fundora vs. Thurman",
+        "date": "Saturday, March 28",
+        "time": "9:00 PM ET",
+        "location": "Las Vegas",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139052-fundora-vs-thurman"
+    },
+    {
+        "event_name": "Taduran vs. Perez",
+        "date": "Friday, April 03",
+        "time": "9:00 PM ET",
+        "location": "Temecula",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139784-taduran-vs-perez"
+    },
+    {
+        "event_name": "Price vs. Aquino",
+        "date": "Saturday, April 04",
+        "time": "1:00 PM ET",
+        "location": "Cardiff",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139188-price-vs-aquino"
+    }
+]
