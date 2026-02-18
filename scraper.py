@@ -197,7 +197,7 @@ async def scrape_tapology(client, url, promotion_name):
                             # Avoid picking up "Boxing & MMA" if it wasn't caught by .sport class
                             if "Boxing" in t or "MMA" in t:
                                 continue
-                            location = t.split(',')[0].strip()
+                            location = t
                             break
                 
                 # If still N/A, fallback to first available text in geography that isn't sport
