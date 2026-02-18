@@ -90,6 +90,7 @@ async def scrape_tapology(client, url, promotion_name):
     logger.info(f"Scraping Tapology for {promotion_name}: {url}")
     today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
     yesterday = today - timedelta(days=1)
+    is_results_page = "schedule=results" in url
     try:
         response = await client.get(url, timeout=30.0)
         response.raise_for_status()
@@ -153,20 +154,25 @@ async def scrape_tapology(client, url, promotion_name):
                 
                 dt, event_date = parse_event_date(event_date_raw)
                 
-                # Filter out events older than yesterday
-                if dt and dt < yesterday:
-                    continue
+                # Filter logic: Results page gets 'this month', others get 'upcoming'
+                if dt:
+                    is_this_month = (dt.month == today.month and dt.year == today.year)
+                    is_future = (dt >= today)
+                    
+                    if not (is_this_month or is_future):
+                        continue
                 
-                # Detection of Title Fight
+                # Detection of Title Fight and Netflix label
                 row_text = row.get_text(" ", strip=True)
                 is_title_fight = "Title Fight" in row_text
+                is_netflix = "Netflix" in row_text
 
                 # Detect if it's a boxing event (excluding Zuffa which should be kept)
                 is_generic_boxing = (promotion_name == "Boxing" or 
                                     ("boxing" in name.lower() and "zuffa" not in name.lower()))
 
-                # For generic boxing, only add events that are a Title Fight
-                if is_generic_boxing and not is_title_fight:
+                # For generic boxing, only add events that are either a Title Fight or on Netflix
+                if is_generic_boxing and not is_title_fight and not is_netflix:
                     continue
 
                 # Location - Try to get city name
@@ -222,7 +228,9 @@ async def main():
         ("https://www.tapology.com/fightcenter/promotions/1-ultimate-fighting-championship-ufc", "UFC"),
         ("https://www.tapology.com/fightcenter/promotions/6299-zuffa-boxing-zb", "Zuffa"),
         ("https://www.tapology.com/fightcenter/promotions/1969-professional-fighters-league-pfl", "PFL"),
-        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv", "Boxing")
+        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv", "Boxing"),
+        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&page=2", "Boxing"),
+        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&schedule=results", "Boxing")
     ]
     
     all_events = []
@@ -237,6 +245,7 @@ async def main():
         results = await asyncio.gather(*tasks)
         for events in results:
             all_events.extend(events)
+    
         
     with open('upcoming_events.json', 'w', encoding='utf-8') as f:
         json.dump(all_events, f, indent=4, ensure_ascii=False)
