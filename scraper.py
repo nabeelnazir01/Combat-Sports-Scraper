@@ -174,6 +174,10 @@ async def scrape_tapology(client, url, promotion_name):
                 # For generic boxing, only add events that are either a Title Fight or on Netflix
                 if is_generic_boxing and not is_title_fight and not is_netflix:
                     continue
+                
+                # For "Other", only add events that are on Netflix
+                if promotion_name == "Other" and not is_netflix:
+                    continue
 
                 # Location - Try to get city name
                 geo_spans = row.select('.geography span')
@@ -230,7 +234,12 @@ async def main():
         ("https://www.tapology.com/fightcenter/promotions/1969-professional-fighters-league-pfl", "PFL"),
         ("https://www.tapology.com/fightcenter?sport=boxing&group=tv", "Boxing"),
         ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&page=2", "Boxing"),
-        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&schedule=results", "Boxing")
+        ("https://www.tapology.com/fightcenter?sport=boxing&group=tv&schedule=results", "Boxing"),
+        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&schedule=results", "Other"),
+        ("https://www.tapology.com/fightcenter?sport=mma&group=tv", "Other"),
+        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&page=2", "Other"),
+        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&page=3", "Other"),
+        ("https://www.tapology.com/fightcenter?sport=mma&group=tv&page=4", "Other")
     ]
     
     all_events = []
