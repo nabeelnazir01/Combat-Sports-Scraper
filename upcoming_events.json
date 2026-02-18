@@ -25,6 +25,14 @@
     },
     {
         "event_name": "UFC Fight Night",
+        "date": "Saturday, April 25",
+        "time": "6:00 PM ET",
+        "location": "Paramount+",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night",
         "date": "Saturday, April 18",
         "time": "6:00 PM ET",
         "location": "Ottawa",
@@ -96,14 +104,6 @@
         "url": "https://www.tapology.com/fightcenter/events/136872-ufc-fight-night"
     },
     {
-        "event_name": "UFC Fight Night: Royval vs. Kape",
-        "date": "Sunday, December 13",
-        "time": "7:00 PM ET",
-        "location": "Las Vegas",
-        "promotion": "UFC",
-        "url": "https://www.tapology.com/fightcenter/events/132921-ufc-fight-night"
-    },
-    {
         "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
         "date": "Sunday, March 08",
         "time": "9:00 PM ET",
@@ -134,6 +134,14 @@
         "location": "Chicago",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137169-pfl-chicago"
+    },
+    {
+        "event_name": "PFL Africa 1: Pretoria",
+        "date": "Friday, April 10",
+        "time": "12:00 PM ET",
+        "location": "Pretoria",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
     },
     {
         "event_name": "PFL Pittsburgh: Eblen vs. Battle",
