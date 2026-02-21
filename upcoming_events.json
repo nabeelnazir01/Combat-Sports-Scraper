@@ -32,10 +32,10 @@
         "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
     },
     {
-        "event_name": "UFC Fight Night",
+        "event_name": "UFC Fight Night: Burns vs. Malott",
         "date": "Saturday, April 18",
         "time": "6:00 PM ET",
-        "location": "Ottawa, ON",
+        "location": "Canada Life Centre",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/139670-ufc-fight-night"
     },
@@ -321,8 +321,8 @@
     },
     {
         "event_name": "Collins vs. Lorente II",
-        "date": "Saturday, April 18",
-        "time": "12:00 AM ET",
+        "date": "Friday, April 17",
+        "time": "1:00 PM ET",
         "location": "Glasgow, Scotland",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140048-collins-vs-lorente-ii"
@@ -339,9 +339,17 @@
         "event_name": "Benavidez vs. Zurdo",
         "date": "Saturday, May 02",
         "time": "9:00 PM ET",
-        "location": "US",
+        "location": "Las Vegas, NV",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/136363-benavidez-vs-zurdo"
+    },
+    {
+        "event_name": "Al Ghena vs. Townsend",
+        "date": "Sunday, May 03",
+        "time": "1:00 PM ET",
+        "location": "London, England",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140215-al-ghena-vs-townsend"
     },
     {
         "event_name": "Wardley vs. Dubois: Don't Blink",
@@ -446,14 +454,6 @@
         "location": "Guadalajara, Jalisco",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137914-medina-vs-curiel"
-    },
-    {
-        "event_name": "Unal vs. Zogaj",
-        "date": "Thursday, February 05",
-        "time": "8:00 PM ET",
-        "location": "Montreal, QC",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/137150-ramirez-vs"
     },
     {
         "event_name": "Rousey vs. Carano",
