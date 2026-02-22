@@ -200,14 +200,6 @@
         "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
     },
     {
-        "event_name": "Barrios vs. Garcia: The Ring: High Stakes",
-        "date": "Saturday, February 21",
-        "time": "8:00 PM ET",
-        "location": "Las Vegas, NV",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/136905-barrios-vs-garcia"
-    },
-    {
         "event_name": "Shields vs. Crews-Dezurn II",
         "date": "Sunday, February 22",
         "time": "8:00 PM ET",
@@ -254,6 +246,14 @@
         "location": "Dublin, IE",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137878-dickens-vs-cacace"
+    },
+    {
+        "event_name": "Undeniable Fight Night 3",
+        "date": "Saturday, March 14",
+        "time": "2:00 PM ET",
+        "location": "Liverpool, England",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139359-undeniable-fight-night-3"
     },
     {
         "event_name": "Liddard vs. Denny",
@@ -360,6 +360,14 @@
         "url": "https://www.tapology.com/fightcenter/events/139645-wardley-vs-dubois"
     },
     {
+        "event_name": "Barrios vs. Garcia: The Ring: High Stakes",
+        "date": "Saturday, February 21",
+        "time": "8:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/136905-barrios-vs-garcia"
+    },
+    {
         "event_name": "Fearless: Muxanga vs. Byfield",
         "date": "Sunday, February 15",
         "time": "2:00 PM ET",
@@ -430,30 +438,6 @@
         "location": "Wuppertal, NRW",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/138033-bfc-3"
-    },
-    {
-        "event_name": "Holzken Fight Night 8",
-        "date": "Saturday, February 07",
-        "time": "12:00 PM ET",
-        "location": "Helmond, NB",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139368-holzken-fight-night-8"
-    },
-    {
-        "event_name": "Hoti vs. Mwakisopile",
-        "date": "Saturday, February 07",
-        "time": "12:00 PM ET",
-        "location": "Basel, BS",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139374-hoti-vs-mwakisopile"
-    },
-    {
-        "event_name": "Medina vs. Curiel",
-        "date": "Friday, February 06",
-        "time": "9:00 PM ET",
-        "location": "Guadalajara, Jalisco",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/137914-medina-vs-curiel"
     },
     {
         "event_name": "Rousey vs. Carano",
