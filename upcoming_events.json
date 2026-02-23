@@ -24,10 +24,10 @@
         "url": "https://www.tapology.com/fightcenter/events/139238-ufc-fight-night"
     },
     {
-        "event_name": "UFC Fight Night",
+        "event_name": "UFC Fight Night: Brady vs. Buckley",
         "date": "Saturday, April 25",
         "time": "6:00 PM ET",
-        "location": "Paramount+",
+        "location": "Las Vegas, NV",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
     },
@@ -48,7 +48,7 @@
         "url": "https://www.tapology.com/fightcenter/events/137847-ufc-327"
     },
     {
-        "event_name": "UFC Fight Night",
+        "event_name": "UFC Fight Night: Moicano vs. Duncan",
         "date": "Saturday, April 04",
         "time": "6:00 PM ET",
         "location": "Las Vegas, NV",
@@ -198,14 +198,6 @@
         "location": "Cotonou, Littoral",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
-    },
-    {
-        "event_name": "Shields vs. Crews-Dezurn II",
-        "date": "Sunday, February 22",
-        "time": "8:00 PM ET",
-        "location": "Detroit, MI",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/136991-shields-vs-crews-dezurn-ii"
     },
     {
         "event_name": "Cooper vs. Ursu: Under the Lights",
@@ -360,6 +352,14 @@
         "url": "https://www.tapology.com/fightcenter/events/139645-wardley-vs-dubois"
     },
     {
+        "event_name": "Shields vs. Crews-Dezurn II",
+        "date": "Sunday, February 22",
+        "time": "8:00 PM ET",
+        "location": "Detroit, MI",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/136991-shields-vs-crews-dezurn-ii"
+    },
+    {
         "event_name": "Barrios vs. Garcia: The Ring: High Stakes",
         "date": "Saturday, February 21",
         "time": "8:00 PM ET",
@@ -430,14 +430,6 @@
         "location": "Liverpool, England",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137101-ball-vs-figueroa"
-    },
-    {
-        "event_name": "BFC 3",
-        "date": "Saturday, February 07",
-        "time": "12:00 PM ET",
-        "location": "Wuppertal, NRW",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138033-bfc-3"
     },
     {
         "event_name": "Rousey vs. Carano",
