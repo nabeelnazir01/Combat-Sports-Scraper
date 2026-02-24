@@ -200,6 +200,14 @@
         "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
     },
     {
+        "event_name": "Quinn vs. Dodd",
+        "date": "Friday, February 27",
+        "time": "2:00 PM ET",
+        "location": "Belfast, Northern Ireland",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140289-quinn-vs-dodd"
+    },
+    {
         "event_name": "Cooper vs. Ursu: Under the Lights",
         "date": "Saturday, February 28",
         "time": "2:00 PM ET",
@@ -262,6 +270,14 @@
         "location": "CA, US",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139806-probox-fight-night-martinez-vs-aleem"
+    },
+    {
+        "event_name": "Adames vs. Williams",
+        "date": "Saturday, March 21",
+        "time": "9:00 PM ET",
+        "location": "Orlando, FL",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140291-adames-vs-williams"
     },
     {
         "event_name": "Fundora vs. Thurman",
@@ -350,6 +366,14 @@
         "location": "Burnley, England",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139645-wardley-vs-dubois"
+    },
+    {
+        "event_name": "Mayweather vs. Pacquiao 2",
+        "date": "Saturday, September 19",
+        "time": "9:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
     },
     {
         "event_name": "Shields vs. Crews-Dezurn II",
