@@ -144,6 +144,14 @@
         "url": "https://www.tapology.com/fightcenter/events/139770-pfl-mena-1-khobar"
     },
     {
+        "event_name": "PFL Sioux Falls",
+        "date": "Saturday, May 02",
+        "time": "8:00 PM ET",
+        "location": "Sanford Pentagon",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/140389-pfl-sioux-falls"
+    },
+    {
         "event_name": "PFL Boston",
         "date": "Thursday, April 16",
         "time": "7:00 PM ET",
@@ -192,20 +200,20 @@
         "url": "https://www.tapology.com/fightcenter/events/136268-pfl-nurmagomedov-vs-davis"
     },
     {
-        "event_name": "PFL Africa 4: 2025 Finals",
-        "date": "Sunday, December 20",
-        "time": "11:00 AM ET",
-        "location": "Cotonou, Littoral",
-        "promotion": "PFL",
-        "url": "https://www.tapology.com/fightcenter/events/134820-pfl-africa-4-2025-finals"
-    },
-    {
         "event_name": "Quinn vs. Dodd",
         "date": "Friday, February 27",
         "time": "2:00 PM ET",
         "location": "Belfast, Northern Ireland",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140289-quinn-vs-dodd"
+    },
+    {
+        "event_name": "Global Fight Night",
+        "date": "Saturday, February 28",
+        "time": "1:00 AM ET",
+        "location": "Bangkok, TH",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140380-global-fight-night"
     },
     {
         "event_name": "Cooper vs. Ursu: Under the Lights",
