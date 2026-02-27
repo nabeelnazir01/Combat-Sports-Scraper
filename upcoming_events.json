@@ -146,16 +146,16 @@
     {
         "event_name": "PFL Sioux Falls",
         "date": "Saturday, May 02",
-        "time": "8:00 PM ET",
+        "time": "7:00 PM ET",
         "location": "Sanford Pentagon",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/140389-pfl-sioux-falls"
     },
     {
-        "event_name": "PFL Boston",
+        "event_name": "PFL Belfast",
         "date": "Thursday, April 16",
-        "time": "7:00 PM ET",
-        "location": "Boston, MA",
+        "time": "2:30 PM ET",
+        "location": "Belfast, Northern Ireland",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/138222-pfl-boston"
     },
@@ -214,6 +214,14 @@
         "location": "Bangkok, TH",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140380-global-fight-night"
+    },
+    {
+        "event_name": "Cage Rage 5",
+        "date": "Saturday, February 28",
+        "time": "12:00 PM ET",
+        "location": "Birmingham, England",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139347-cage-rage-5"
     },
     {
         "event_name": "Cooper vs. Ursu: Under the Lights",
@@ -350,6 +358,14 @@
         "location": "Liverpool, England",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140081-smith-vs-morrell"
+    },
+    {
+        "event_name": "Yoka vs. Okolie",
+        "date": "Saturday, April 25",
+        "time": "1:00 PM ET",
+        "location": "Paris, Ile-de-France",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140424-yoka-vs-okolie"
     },
     {
         "event_name": "Benavidez vs. Zurdo",
