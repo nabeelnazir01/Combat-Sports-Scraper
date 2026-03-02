@@ -104,6 +104,22 @@
         "url": "https://www.tapology.com/fightcenter/events/136871-ufc-326-holloway-vs-oliveira-2"
     },
     {
+        "event_name": "Zuffa Boxing 6",
+        "date": "Sunday, May 10",
+        "time": "7:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/140537-zuffa-boxing-6"
+    },
+    {
+        "event_name": "Zuffa Boxing 5",
+        "date": "Sunday, April 05",
+        "time": "6:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/140536-zuffa-boxing-5"
+    },
+    {
         "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
         "date": "Sunday, March 08",
         "time": "9:00 PM ET",
