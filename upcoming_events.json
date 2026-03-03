@@ -122,10 +122,18 @@
     {
         "event_name": "Zuffa Boxing 4: Opetaia vs. Glanton",
         "date": "Sunday, March 08",
-        "time": "9:00 PM ET",
+        "time": "7:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/138955-zuffa-boxing-opetaia-vs-mikaelian"
+    },
+    {
+        "event_name": "PFL Brussels: Habirora vs. Henderson",
+        "date": "Saturday, May 23",
+        "time": "11:00 AM ET",
+        "location": "Brussels, BE",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/140580-pfl-brussels-habirora-vs-henderson"
     },
     {
         "event_name": "PFL MENA 1: Khobar",
@@ -136,7 +144,7 @@
         "url": "https://www.tapology.com/fightcenter/events/139770-pfl-mena-1-khobar"
     },
     {
-        "event_name": "PFL Sioux Falls",
+        "event_name": "PFL Sioux Falls: Storley vs. Zendeli",
         "date": "Saturday, May 02",
         "time": "7:00 PM ET",
         "location": "Sanford Pentagon",
@@ -144,7 +152,7 @@
         "url": "https://www.tapology.com/fightcenter/events/140389-pfl-sioux-falls"
     },
     {
-        "event_name": "PFL Belfast",
+        "event_name": "PFL Belfast: Hughes vs. Wilson",
         "date": "Thursday, April 16",
         "time": "2:30 PM ET",
         "location": "Belfast, Northern Ireland",
