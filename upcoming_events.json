@@ -32,9 +32,17 @@
         "url": "https://www.tapology.com/fightcenter/events/140458-ufc-fight-night"
     },
     {
+        "event_name": "UFC 328",
+        "date": "Saturday, May 09",
+        "time": "5:00 PM ET",
+        "location": "Newark, NJ",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/140614-ufc-328"
+    },
+    {
         "event_name": "UFC Fight Night: Della Maddalena vs. Prate...",
         "date": "Saturday, May 02",
-        "time": "5:00 PM ET",
+        "time": "4:00 AM ET",
         "location": "Perth, WA",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/140511-ufc-fight-night-della-maddalena-vs-prates"
@@ -42,7 +50,7 @@
     {
         "event_name": "UFC Fight Night: Brady vs. Buckley",
         "date": "Saturday, April 25",
-        "time": "6:00 PM ET",
+        "time": "4:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
@@ -58,7 +66,7 @@
     {
         "event_name": "UFC 327: Procházka vs. Ulberg",
         "date": "Saturday, April 11",
-        "time": "6:00 PM ET",
+        "time": "5:00 PM ET",
         "location": "Miami, FL",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/137847-ufc-327"
