@@ -1,7 +1,7 @@
 import asyncio
 import json
 import logging
-import httpx
+from curl_cffi.requests import AsyncSession
 import re
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
@@ -10,12 +10,7 @@ from bs4 import BeautifulSoup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Standard browser headers
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-}
+
 
 def parse_event_date(date_str):
     """
@@ -240,7 +235,7 @@ async def main():
     
     all_events = []
     
-    async with httpx.AsyncClient(headers=HEADERS, follow_redirects=True) as client:
+    async with AsyncSession(impersonate="chrome120") as client:
         for original_url, promo in urls:
             if "tapology.com" not in original_url:
                 continue
@@ -258,10 +253,12 @@ async def main():
                 events, _ = await scrape_tapology(client, original_url, promo)
                 all_events.extend(events)   
         
-    with open('upcoming_events.json', 'w', encoding='utf-8') as f:
-        json.dump(all_events, f, indent=4, ensure_ascii=False)
-        
-    logger.info(f"Scraped {len(all_events)} events total. Saved to upcoming_events.json")
+    if all_events:
+        with open('upcoming_events.json', 'w', encoding='utf-8') as f:
+            json.dump(all_events, f, indent=4, ensure_ascii=False)
+        logger.info(f"Scraped {len(all_events)} events total. Saved to upcoming_events.json")
+    else:
+        logger.warning("No events scraped. JSON file was not updated.")
 
 if __name__ == "__main__":
     asyncio.run(main())

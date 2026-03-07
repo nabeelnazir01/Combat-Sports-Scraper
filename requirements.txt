@@ -1,2 +1,2 @@
-httpx
+curl_cffi
 beautifulsoup4
