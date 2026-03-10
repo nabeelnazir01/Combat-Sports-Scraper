@@ -8,7 +8,7 @@
         "url": "https://www.tapology.com/fightcenter/events/137846-ufc-fight-night"
     },
     {
-        "event_name": "UFC Freedom Fights 250",
+        "event_name": "UFC Freedom Fights 250: Topuria vs. Gaethj...",
         "date": "Sunday, June 14",
         "time": "6:00 PM ET",
         "location": "Washington, US",
@@ -106,7 +106,7 @@
     {
         "event_name": "UFC 326: Holloway vs. Oliveira 2",
         "date": "Saturday, March 07",
-        "time": "5:00 PM ET",
+        "time": "5:30 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/136871-ufc-326-holloway-vs-oliveira-2"
@@ -114,7 +114,7 @@
     {
         "event_name": "Zuffa Boxing 6",
         "date": "Sunday, May 10",
-        "time": "7:00 PM ET",
+        "time": "6:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/140537-zuffa-boxing-6"
@@ -198,14 +198,6 @@
         "location": "Palacio Vistalegre",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/137127-pfl-madrid-van-steenis-vs-edwards"
-    },
-    {
-        "event_name": "Misfits Duel 2",
-        "date": "Saturday, March 07",
-        "time": "1:00 PM ET",
-        "location": "Derby, England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139796-misfits-duel-2"
     },
     {
         "event_name": "Dickens vs. Cacace",
@@ -312,6 +304,14 @@
         "url": "https://www.tapology.com/fightcenter/events/140048-collins-vs-lorente-ii"
     },
     {
+        "event_name": "Baumgardner vs. Shin: MVPW 02",
+        "date": "Friday, April 17",
+        "time": "5:00 PM ET",
+        "location": "New York, NY",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140682-baumgardner-vs-shin"
+    },
+    {
         "event_name": "Smith vs. Morrell",
         "date": "Saturday, April 18",
         "time": "2:00 PM ET",
@@ -360,12 +360,28 @@
         "url": "https://www.tapology.com/fightcenter/events/140464-usyk-vs-verhoven"
     },
     {
+        "event_name": "Han vs. Holm II: MVPW 03",
+        "date": "Saturday, May 30",
+        "time": "8:00 PM ET",
+        "location": "El Paso, TX",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140777-han-vs-holm-ii-mvpw-03"
+    },
+    {
         "event_name": "Mayweather vs. Pacquiao 2",
         "date": "Saturday, September 19",
         "time": "9:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
+    },
+    {
+        "event_name": "Misfits Duel 2",
+        "date": "Saturday, March 07",
+        "time": "1:00 PM ET",
+        "location": "Derby, England",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139796-misfits-duel-2"
     },
     {
         "event_name": "Butler vs. Hiseni",
