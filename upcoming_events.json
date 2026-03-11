@@ -272,6 +272,14 @@
         "url": "https://www.tapology.com/fightcenter/events/139188-price-vs-aquino"
     },
     {
+        "event_name": "Tszyu vs. Nurja: No Limit On PPV",
+        "date": "Sunday, April 05",
+        "time": "3:00 AM ET",
+        "location": "New South Wales, AU",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140822-tszyu-vs-nurja"
+    },
+    {
         "event_name": "Iglesias vs. Silyagin",
         "date": "Thursday, April 09",
         "time": "8:00 PM ET",
@@ -326,6 +334,14 @@
         "location": "Paris, Ile-de-France",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140424-yoka-vs-okolie"
+    },
+    {
+        "event_name": "Primetime Fight Night vol.8",
+        "date": "Saturday, April 25",
+        "time": "1:00 PM ET",
+        "location": "Kolding, Region of Southern Denmark",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140574-primetime-fight-night-vol-8"
     },
     {
         "event_name": "Benavidez vs. Zurdo",
