@@ -8,15 +8,31 @@
         "url": "https://www.tapology.com/fightcenter/events/137846-ufc-fight-night"
     },
     {
+        "event_name": "UFC 330",
+        "date": "Saturday, July 11",
+        "time": "5:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/140956-ufc-330"
+    },
+    {
         "event_name": "UFC Freedom Fights 250: Topuria vs. Gaethj...",
         "date": "Sunday, June 14",
-        "time": "6:00 PM ET",
+        "time": "8:00 PM ET",
         "location": "Washington, US",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/137848-ufc-white-house"
     },
     {
-        "event_name": "UFC Fight Night",
+        "event_name": "UFC Fight Night: Muhammad vs. Bonfim",
+        "date": "Saturday, June 06",
+        "time": "5:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/140934-ufc-fight-night-muhammad-vs-bonfim"
+    },
+    {
+        "event_name": "UFC Fight Night: Song vs. Figueiredo",
         "date": "Saturday, May 30",
         "time": "3:00 AM ET",
         "location": "MO",
@@ -32,7 +48,7 @@
         "url": "https://www.tapology.com/fightcenter/events/140458-ufc-fight-night"
     },
     {
-        "event_name": "UFC 328",
+        "event_name": "UFC 328: Chimaev vs. Strickland",
         "date": "Saturday, May 09",
         "time": "5:00 PM ET",
         "location": "Newark, NJ",
@@ -208,12 +224,20 @@
         "url": "https://www.tapology.com/fightcenter/events/137878-dickens-vs-cacace"
     },
     {
-        "event_name": "NLC Fight Night 43",
+        "event_name": "NLC Fight Night 43: Powell vs Manning",
         "date": "Saturday, March 14",
         "time": "6:00 PM ET",
         "location": "WV, US",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/137784-nlc-fight-night-43"
+    },
+    {
+        "event_name": "Barboza vs. Sims Jr.",
+        "date": "Saturday, March 14",
+        "time": "8:00 PM ET",
+        "location": "Anaheim, CA",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139591-fundora-vs-ruiz"
     },
     {
         "event_name": "Contagem Fight Night 14: Contagem Fight",
@@ -342,6 +366,14 @@
         "location": "Kolding, Region of Southern Denmark",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140574-primetime-fight-night-vol-8"
+    },
+    {
+        "event_name": "Nicholson vs. Turner",
+        "date": "Wednesday, April 29",
+        "time": "3:00 AM ET",
+        "location": "Melbourne, Victoria",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140933-nicholson-vs-turner"
     },
     {
         "event_name": "Benavidez vs. Zurdo",
