@@ -128,7 +128,7 @@
         "url": "https://www.tapology.com/fightcenter/events/138212-ufc-fight-night"
     },
     {
-        "event_name": "Zuffa Boxing 6",
+        "event_name": "Zuffa Boxing 6: Mosley Jr. vs. Bohachuk",
         "date": "Sunday, May 10",
         "time": "6:00 PM ET",
         "location": "Las Vegas, NV",
@@ -138,7 +138,7 @@
     {
         "event_name": "Zuffa Boxing 5: Cortes vs. Garcia",
         "date": "Sunday, April 05",
-        "time": "6:00 PM ET",
+        "time": "6:30 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/140536-zuffa-boxing-5"
@@ -152,7 +152,7 @@
         "url": "https://www.tapology.com/fightcenter/events/140580-pfl-brussels-habirora-vs-henderson"
     },
     {
-        "event_name": "PFL MENA 1: Khobar",
+        "event_name": "PFL MENA 1: Khobar (cancelled)",
         "date": "Friday, May 08",
         "time": "10:30 AM ET",
         "location": "Dhahran Expo",
@@ -192,52 +192,44 @@
         "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
     },
     {
-        "event_name": "Tszyu vs. Nurja: No Limit On PPV",
-        "date": "Sunday, April 05",
-        "time": "12:00 AM ET",
-        "location": "New South Wales, AU",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140822-tszyu-vs-nurja"
-    },
-    {
-        "event_name": "Choi vs. Cabrera",
-        "date": "Sunday, April 05",
+        "event_name": "2026 Asian Boxing Elite Boxing Championshi...",
+        "date": "Friday, April 10",
         "time": "1:00 AM ET",
-        "location": "Namyangju-si, Gyeonggi",
+        "location": "Ulaanbaatar, MN",
         "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141860-choi-vs-cabrera"
+        "url": "https://www.tapology.com/fightcenter/events/142105-2026-asian-boxing-elite-boxing-championships-men-s-finals"
     },
     {
-        "event_name": "Dubois vs. Harper",
-        "date": "Sunday, April 05",
-        "time": "12:00 PM ET",
-        "location": "London, England",
+        "event_name": "Flos Fight Series 1",
+        "date": "Saturday, April 11",
+        "time": "7:00 AM ET",
+        "location": "Surabaya, East Java",
         "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139395-dubois-vs-harper"
-    },
-    {
-        "event_name": "Iglesias vs. Silyagin",
-        "date": "Thursday, April 09",
-        "time": "8:00 PM ET",
-        "location": "Montreal, QC",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139689-iglesias-vs-silyagin"
+        "url": "https://www.tapology.com/fightcenter/events/142072-flos-fight-series-1"
     },
     {
         "event_name": "Fury vs. Makhmudov",
         "date": "Saturday, April 11",
-        "time": "2:00 PM ET",
+        "time": "11:00 AM ET",
         "location": "London, England",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139108-fury-vs-makhmudov"
     },
     {
-        "event_name": "Phoenix Battle 154",
-        "date": "Monday, April 13",
-        "time": "3:00 AM ET",
-        "location": "Tokyo, JP",
+        "event_name": "ARMMADA 17",
+        "date": "Saturday, April 11",
+        "time": "12:00 PM ET",
+        "location": "Novi Sad, Vojvodina",
         "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138611-simsri-vs-mendoza"
+        "url": "https://www.tapology.com/fightcenter/events/140508-armmada-17"
+    },
+    {
+        "event_name": "You Will Be the Champion 28",
+        "date": "Sunday, April 12",
+        "time": "2:00 AM ET",
+        "location": "Osaka, Osaka Prefecture",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142124-you-will-be-the-champion-28"
     },
     {
         "event_name": "Collins vs. Lorente II",
@@ -254,14 +246,6 @@
         "location": "New York, NY",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140682-baumgardner-vs-shin"
-    },
-    {
-        "event_name": "Smith vs. Morrell",
-        "date": "Saturday, April 18",
-        "time": "2:00 PM ET",
-        "location": "Liverpool, England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140081-smith-vs-morrell"
     },
     {
         "event_name": "Yoka vs. Okolie",
@@ -344,6 +328,14 @@
         "url": "https://www.tapology.com/fightcenter/events/140777-han-vs-holm-ii-mvpw-03"
     },
     {
+        "event_name": "Foster vs. Ford",
+        "date": "Saturday, May 30",
+        "time": "8:00 PM ET",
+        "location": "Houston, TX",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142087-foster-vs-ford"
+    },
+    {
         "event_name": "Ramirez vs. Richards",
         "date": "Thursday, June 04",
         "time": "8:00 PM ET",
@@ -376,12 +368,60 @@
         "url": "https://www.tapology.com/fightcenter/events/141787-zayas-vs-boots"
     },
     {
+        "event_name": "Mason vs. Cordina",
+        "date": "Saturday, July 04",
+        "time": "8:00 PM ET",
+        "location": "Cleveland, OH",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142086-mason-vs-cordina"
+    },
+    {
         "event_name": "Mayweather vs. Pacquiao 2",
         "date": "Saturday, September 19",
         "time": "9:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
+    },
+    {
+        "event_name": "Iglesias vs. Silyagin",
+        "date": "Thursday, April 09",
+        "time": "8:00 PM ET",
+        "location": "Montreal, QC",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139689-iglesias-vs-silyagin"
+    },
+    {
+        "event_name": "2026 Asian Boxing Elite Boxing Championshi...",
+        "date": "Thursday, April 09",
+        "time": "1:00 AM ET",
+        "location": "Ulaanbaatar, MN",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142085-2026-asian-boxing-elite-boxing-championships-women-s-finals"
+    },
+    {
+        "event_name": "Dubois vs. Harper",
+        "date": "Sunday, April 05",
+        "time": "12:00 PM ET",
+        "location": "London, England",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139395-dubois-vs-harper"
+    },
+    {
+        "event_name": "Choi vs. Cabrera",
+        "date": "Sunday, April 05",
+        "time": "1:00 AM ET",
+        "location": "Namyangju-si, Gyeonggi",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/141860-choi-vs-cabrera"
+    },
+    {
+        "event_name": "Tszyu vs. Nurja: No Limit On PPV",
+        "date": "Sunday, April 05",
+        "time": "12:00 AM ET",
+        "location": "New South Wales, AU",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140822-tszyu-vs-nurja"
     },
     {
         "event_name": "Price vs. Aquino",
@@ -406,6 +446,14 @@
         "location": "Temecula, CA",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/139784-taduran-vs-perez"
+    },
+    {
+        "event_name": "BoxFest XVII",
+        "date": "Friday, April 03",
+        "time": "8:00 PM ET",
+        "location": "Allentown, PA",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/139064-boxfest-xvii"
     },
     {
         "event_name": "Brown vs. Ducar",
