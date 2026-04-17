@@ -162,7 +162,7 @@
     {
         "event_name": "PFL Brussels: Habirora vs. Henderson",
         "date": "Saturday, May 23",
-        "time": "11:00 AM ET",
+        "time": "1:00 PM ET",
         "location": "Brussels, BE",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/140580-pfl-brussels-habirora-vs-henderson"
@@ -186,7 +186,7 @@
     {
         "event_name": "PFL Belfast: Kelly vs. Wilson",
         "date": "Thursday, April 16",
-        "time": "2:30 PM ET",
+        "time": "3:00 PM ET",
         "location": "Belfast, Northern Ireland",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/138222-pfl-boston"
@@ -208,9 +208,17 @@
         "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
     },
     {
+        "event_name": "IBA.Pro 16",
+        "date": "Friday, April 17",
+        "time": "9:00 AM ET",
+        "location": "Serpukhov, МО",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142285-iba-pro-16"
+    },
+    {
         "event_name": "Collins vs. Lorente II",
         "date": "Friday, April 17",
-        "time": "1:00 PM ET",
+        "time": "11:45 AM ET",
         "location": "Glasgow, Scotland",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140048-collins-vs-lorente-ii"
@@ -218,10 +226,50 @@
     {
         "event_name": "Baumgardner vs. Shin: MVPW 02",
         "date": "Friday, April 17",
-        "time": "5:00 PM ET",
+        "time": "6:30 PM ET",
         "location": "New York, NY",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140682-baumgardner-vs-shin"
+    },
+    {
+        "event_name": "K-1 WORLD MAX 2026 in Melbourne",
+        "date": "Saturday, April 18",
+        "time": "4:00 AM ET",
+        "location": "Melbourne, VIC",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142013-k-1-world-max-2026-in-melbourne"
+    },
+    {
+        "event_name": "RFA 30",
+        "date": "Saturday, April 18",
+        "time": "12:00 PM ET",
+        "location": "Prešov, Prešov Region",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138597-rfa-30"
+    },
+    {
+        "event_name": "Arena Golden Fight 12",
+        "date": "Saturday, April 18",
+        "time": "12:00 PM ET",
+        "location": "Dubrava, Zagrebačka županija",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140760-arena-golden-fight-12"
+    },
+    {
+        "event_name": "The King Fight 2: TKF2",
+        "date": "Saturday, April 18",
+        "time": "1:00 PM ET",
+        "location": "PA, BR",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140456-the-king-fight-2-tkf2"
+    },
+    {
+        "event_name": "Phoenix Battle 155: Crash Boxing vol.37",
+        "date": "Sunday, April 19",
+        "time": "4:00 AM ET",
+        "location": "Kadoma, Osaka Prefecture",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140352-phoenix-battle-155-crash-boxing-vol-37"
     },
     {
         "event_name": "Yoka vs. Okolie",
@@ -374,6 +422,14 @@
         "location": "Osaka, Osaka Prefecture",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/142124-you-will-be-the-champion-28"
+    },
+    {
+        "event_name": "Night of Champions X",
+        "date": "Saturday, April 11",
+        "time": "9:00 PM ET",
+        "location": "Paradise, NV",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138085-adams-vs-agyarko"
     },
     {
         "event_name": "Mielnicki vs. Huerta: ProBox Fight Night",
