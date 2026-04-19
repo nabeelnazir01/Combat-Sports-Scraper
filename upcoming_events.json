@@ -106,7 +106,7 @@
     {
         "event_name": "UFC Fight Night: Sterling vs. Zalal",
         "date": "Saturday, April 25",
-        "time": "4:00 PM ET",
+        "time": "5:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
@@ -208,62 +208,6 @@
         "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
     },
     {
-        "event_name": "IBA.Pro 16",
-        "date": "Friday, April 17",
-        "time": "9:00 AM ET",
-        "location": "Serpukhov, МО",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142285-iba-pro-16"
-    },
-    {
-        "event_name": "Collins vs. Lorente II",
-        "date": "Friday, April 17",
-        "time": "11:45 AM ET",
-        "location": "Glasgow, Scotland",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140048-collins-vs-lorente-ii"
-    },
-    {
-        "event_name": "Baumgardner vs. Shin: MVPW 02",
-        "date": "Friday, April 17",
-        "time": "6:30 PM ET",
-        "location": "New York, NY",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140682-baumgardner-vs-shin"
-    },
-    {
-        "event_name": "K-1 WORLD MAX 2026 in Melbourne",
-        "date": "Saturday, April 18",
-        "time": "4:00 AM ET",
-        "location": "Melbourne, VIC",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142013-k-1-world-max-2026-in-melbourne"
-    },
-    {
-        "event_name": "RFA 30",
-        "date": "Saturday, April 18",
-        "time": "12:00 PM ET",
-        "location": "Prešov, Prešov Region",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138597-rfa-30"
-    },
-    {
-        "event_name": "Arena Golden Fight 12",
-        "date": "Saturday, April 18",
-        "time": "12:00 PM ET",
-        "location": "Dubrava, Zagrebačka županija",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140760-arena-golden-fight-12"
-    },
-    {
-        "event_name": "The King Fight 2: TKF2",
-        "date": "Saturday, April 18",
-        "time": "1:00 PM ET",
-        "location": "PA, BR",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140456-the-king-fight-2-tkf2"
-    },
-    {
         "event_name": "Phoenix Battle 155: Crash Boxing vol.37",
         "date": "Sunday, April 19",
         "time": "4:00 AM ET",
@@ -336,7 +280,7 @@
         "url": "https://www.tapology.com/fightcenter/events/141577-leo-vs-aleem"
     },
     {
-        "event_name": "Usyk vs. Rico",
+        "event_name": "Usyk vs. Rico: Glory in Giza",
         "date": "Saturday, May 23",
         "time": "1:00 PM ET",
         "location": "Giza, EG",
@@ -384,6 +328,14 @@
         "url": "https://www.tapology.com/fightcenter/events/141955-mathieu-vs-falcao"
     },
     {
+        "event_name": "Bam vs. Vargas",
+        "date": "Saturday, June 13",
+        "time": "8:00 PM ET",
+        "location": "Glendale, AZ",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142593-bam-vs-vargas"
+    },
+    {
         "event_name": "Garner vs. Magnesi",
         "date": "Saturday, June 20",
         "time": "1:00 PM ET",
@@ -414,6 +366,62 @@
         "location": "Las Vegas, NV",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
+    },
+    {
+        "event_name": "The King Fight 2: TKF2",
+        "date": "Saturday, April 18",
+        "time": "1:00 PM ET",
+        "location": "PA, BR",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140456-the-king-fight-2-tkf2"
+    },
+    {
+        "event_name": "RFA 30",
+        "date": "Saturday, April 18",
+        "time": "12:00 PM ET",
+        "location": "Prešov, Prešov Region",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/138597-rfa-30"
+    },
+    {
+        "event_name": "Arena Golden Fight 12",
+        "date": "Saturday, April 18",
+        "time": "12:00 PM ET",
+        "location": "Dubrava, Zagrebačka županija",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140760-arena-golden-fight-12"
+    },
+    {
+        "event_name": "K-1 WORLD MAX 2026 in Melbourne",
+        "date": "Saturday, April 18",
+        "time": "4:00 AM ET",
+        "location": "Melbourne, VIC",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142013-k-1-world-max-2026-in-melbourne"
+    },
+    {
+        "event_name": "Baumgardner vs. Shin: MVPW 02",
+        "date": "Friday, April 17",
+        "time": "6:30 PM ET",
+        "location": "New York, NY",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140682-baumgardner-vs-shin"
+    },
+    {
+        "event_name": "Collins vs. Lorente II",
+        "date": "Friday, April 17",
+        "time": "11:45 AM ET",
+        "location": "Glasgow, Scotland",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140048-collins-vs-lorente-ii"
+    },
+    {
+        "event_name": "IBA.Pro 16",
+        "date": "Friday, April 17",
+        "time": "9:00 AM ET",
+        "location": "Serpukhov, МО",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142285-iba-pro-16"
     },
     {
         "event_name": "You Will Be the Champion 28",
@@ -464,52 +472,20 @@
         "url": "https://www.tapology.com/fightcenter/events/142072-flos-fight-series-1"
     },
     {
+        "event_name": "The Rise Continues",
+        "date": "Friday, April 10",
+        "time": "3:00 PM ET",
+        "location": "Accra, Greater Accra",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/142007-the-rise-continues"
+    },
+    {
         "event_name": "2026 Asian Boxing Elite Boxing Championshi...",
         "date": "Friday, April 10",
         "time": "1:00 AM ET",
         "location": "Ulaanbaatar, MN",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/142105-2026-asian-boxing-elite-boxing-championships-men-s-finals"
-    },
-    {
-        "event_name": "Iglesias vs. Silyagin",
-        "date": "Thursday, April 09",
-        "time": "8:00 PM ET",
-        "location": "Montreal, QC",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139689-iglesias-vs-silyagin"
-    },
-    {
-        "event_name": "2026 Asian Boxing Elite Boxing Championshi...",
-        "date": "Thursday, April 09",
-        "time": "1:00 AM ET",
-        "location": "Ulaanbaatar, MN",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142085-2026-asian-boxing-elite-boxing-championships-women-s-finals"
-    },
-    {
-        "event_name": "Dubois vs. Harper",
-        "date": "Sunday, April 05",
-        "time": "12:00 PM ET",
-        "location": "London, England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139395-dubois-vs-harper"
-    },
-    {
-        "event_name": "Choi vs. Cabrera",
-        "date": "Sunday, April 05",
-        "time": "1:00 AM ET",
-        "location": "Namyangju-si, Gyeonggi",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141860-choi-vs-cabrera"
-    },
-    {
-        "event_name": "Tszyu vs. Nurja: No Limit On PPV",
-        "date": "Sunday, April 05",
-        "time": "12:00 AM ET",
-        "location": "New South Wales, AU",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140822-tszyu-vs-nurja"
     },
     {
         "event_name": "MVP MMA 1: Rousey vs. Carano",
