@@ -208,14 +208,6 @@
         "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
     },
     {
-        "event_name": "Phoenix Battle 155: Crash Boxing vol.37",
-        "date": "Sunday, April 19",
-        "time": "4:00 AM ET",
-        "location": "Kadoma, Osaka Prefecture",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140352-phoenix-battle-155-crash-boxing-vol-37"
-    },
-    {
         "event_name": "Yoka vs. Okolie",
         "date": "Saturday, April 25",
         "time": "1:00 PM ET",
@@ -368,6 +360,14 @@
         "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
     },
     {
+        "event_name": "Phoenix Battle 155: Crash Boxing vol.37",
+        "date": "Sunday, April 19",
+        "time": "4:00 AM ET",
+        "location": "Kadoma, Osaka Prefecture",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140352-phoenix-battle-155-crash-boxing-vol-37"
+    },
+    {
         "event_name": "The King Fight 2: TKF2",
         "date": "Saturday, April 18",
         "time": "1:00 PM ET",
@@ -478,14 +478,6 @@
         "location": "Accra, Greater Accra",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/142007-the-rise-continues"
-    },
-    {
-        "event_name": "2026 Asian Boxing Elite Boxing Championshi...",
-        "date": "Friday, April 10",
-        "time": "1:00 AM ET",
-        "location": "Ulaanbaatar, MN",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142105-2026-asian-boxing-elite-boxing-championships-men-s-finals"
     },
     {
         "event_name": "MVP MMA 1: Rousey vs. Carano",
