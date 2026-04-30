@@ -27,7 +27,7 @@
         "event_name": "UFC Fight Night",
         "date": "Saturday, July 18",
         "time": "5:00 PM ET",
-        "location": "Chesapeake Energy...",
+        "location": "Oklahoma City, OK",
         "promotion": "UFC",
         "url": "https://www.tapology.com/fightcenter/events/142777-ufc-fight-night"
     },
@@ -160,6 +160,14 @@
         "url": "https://www.tapology.com/fightcenter/events/142881-zuffa-boxing"
     },
     {
+        "event_name": "Zuffa Boxing 7",
+        "date": "Saturday, June 06",
+        "time": "2:00 PM ET",
+        "location": "Bournemouth International Centre",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/143105-zuffa-boxing-7"
+    },
+    {
         "event_name": "Zuffa Boxing 6: Mosley Jr. vs. Bohachuk",
         "date": "Sunday, May 10",
         "time": "6:00 PM ET",
@@ -192,20 +200,20 @@
         "url": "https://www.tapology.com/fightcenter/events/142300-pfl-africa-2-nigeria"
     },
     {
-        "event_name": "PFL Brussels: Habirora vs. Henderson",
-        "date": "Saturday, May 23",
-        "time": "1:00 PM ET",
-        "location": "Brussels, BE",
-        "promotion": "PFL",
-        "url": "https://www.tapology.com/fightcenter/events/140580-pfl-brussels-habirora-vs-henderson"
-    },
-    {
         "event_name": "PFL MENA: Pride of Arabia",
-        "date": "Saturday, May 23",
-        "time": "11:00 AM ET",
+        "date": "Sunday, May 24",
+        "time": "9:00 AM ET",
         "location": "Dubai, AE",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/142852-pfl-mena-pride-of-arabia"
+    },
+    {
+        "event_name": "PFL Brussels: Habirora vs. Henderson",
+        "date": "Saturday, May 23",
+        "time": "12:00 PM ET",
+        "location": "Brussels, BE",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/140580-pfl-brussels-habirora-vs-henderson"
     },
     {
         "event_name": "PFL MENA: Khobar (cancelled)",
@@ -246,22 +254,6 @@
         "location": "Pretoria, GP",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
-    },
-    {
-        "event_name": "Nicholson vs. Turner",
-        "date": "Wednesday, April 29",
-        "time": "5:00 AM ET",
-        "location": "Melbourne, Victoria",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140933-nicholson-vs-turner"
-    },
-    {
-        "event_name": "Island Fights 96",
-        "date": "Friday, May 01",
-        "time": "8:00 PM ET",
-        "location": "Pensacola, FL",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140360-island-fights-96"
     },
     {
         "event_name": "Inoue vs. Nakatani",
@@ -384,6 +376,14 @@
         "url": "https://www.tapology.com/fightcenter/events/142593-bam-vs-vargas"
     },
     {
+        "event_name": "MVPW 4",
+        "date": "Saturday, June 13",
+        "time": "8:00 PM ET",
+        "location": "Orlando, FL",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/143118-mvpw-4"
+    },
+    {
         "event_name": "Garner vs. Magnesi",
         "date": "Saturday, June 20",
         "time": "1:00 PM ET",
@@ -408,12 +408,28 @@
         "url": "https://www.tapology.com/fightcenter/events/142086-mason-vs-cordina"
     },
     {
+        "event_name": "O'Leary vs. Chamberlain",
+        "date": "Saturday, August 01",
+        "time": "2:00 PM ET",
+        "location": "Dublin, IE",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/143130-o-leary-vs-chamberlain"
+    },
+    {
         "event_name": "Mayweather vs. Pacquiao 2",
         "date": "Saturday, September 19",
         "time": "9:00 PM ET",
         "location": "Las Vegas, NV",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
+    },
+    {
+        "event_name": "Nicholson vs. Turner",
+        "date": "Wednesday, April 29",
+        "time": "5:00 AM ET",
+        "location": "Melbourne, Victoria",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140933-nicholson-vs-turner"
     },
     {
         "event_name": "World Boxing Cup Brazil 2026: Finals",
@@ -494,14 +510,6 @@
         "location": "Brisbane, QLD",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140206-moloney-vs-donovan"
-    },
-    {
-        "event_name": "Phoenix Battle 155: Crash Boxing vol.37",
-        "date": "Sunday, April 19",
-        "time": "4:00 AM ET",
-        "location": "Kadoma, Osaka Prefecture",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140352-phoenix-battle-155-crash-boxing-vol-37"
     },
     {
         "event_name": "MVP MMA 1: Rousey vs. Carano",
