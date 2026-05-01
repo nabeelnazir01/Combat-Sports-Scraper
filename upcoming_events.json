@@ -120,38 +120,6 @@
         "url": "https://www.tapology.com/fightcenter/events/140511-ufc-fight-night-della-maddalena-vs-prates"
     },
     {
-        "event_name": "UFC Fight Night: Sterling vs. Zalal",
-        "date": "Saturday, April 25",
-        "time": "5:00 PM ET",
-        "location": "Las Vegas, NV",
-        "promotion": "UFC",
-        "url": "https://www.tapology.com/fightcenter/events/140114-ufc-fight-night"
-    },
-    {
-        "event_name": "UFC Fight Night: Burns vs. Malott",
-        "date": "Saturday, April 18",
-        "time": "5:00 PM ET",
-        "location": "Canada Life Centre",
-        "promotion": "UFC",
-        "url": "https://www.tapology.com/fightcenter/events/139670-ufc-fight-night"
-    },
-    {
-        "event_name": "UFC 327: Procházka vs. Ulberg",
-        "date": "Saturday, April 11",
-        "time": "5:30 PM ET",
-        "location": "Miami, FL",
-        "promotion": "UFC",
-        "url": "https://www.tapology.com/fightcenter/events/137847-ufc-327"
-    },
-    {
-        "event_name": "UFC Fight Night: Moicano vs. Duncan",
-        "date": "Saturday, April 04",
-        "time": "5:00 PM ET",
-        "location": "Las Vegas, NV",
-        "promotion": "UFC",
-        "url": "https://www.tapology.com/fightcenter/events/138212-ufc-fight-night"
-    },
-    {
         "event_name": "Zuffa Boxing",
         "date": "Sunday, July 12",
         "time": "6:00 PM ET",
@@ -174,14 +142,6 @@
         "location": "Las Vegas, NV",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/140537-zuffa-boxing-6"
-    },
-    {
-        "event_name": "Zuffa Boxing 5: Cortes vs. Garcia",
-        "date": "Sunday, April 05",
-        "time": "6:30 PM ET",
-        "location": "Las Vegas, NV",
-        "promotion": "Zuffa",
-        "url": "https://www.tapology.com/fightcenter/events/140536-zuffa-boxing-5"
     },
     {
         "event_name": "PFL San Diego: McKee vs. Isbulaev",
@@ -230,30 +190,6 @@
         "location": "Sanford Pentagon",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/140389-pfl-sioux-falls"
-    },
-    {
-        "event_name": "PFL Belfast: Kelly vs. Wilson",
-        "date": "Thursday, April 16",
-        "time": "3:00 PM ET",
-        "location": "Belfast, Northern Ireland",
-        "promotion": "PFL",
-        "url": "https://www.tapology.com/fightcenter/events/138222-pfl-boston"
-    },
-    {
-        "event_name": "PFL Chicago: Pettis vs. McKee",
-        "date": "Saturday, April 11",
-        "time": "6:00 PM ET",
-        "location": "Chicago, IL",
-        "promotion": "PFL",
-        "url": "https://www.tapology.com/fightcenter/events/137169-pfl-chicago"
-    },
-    {
-        "event_name": "PFL Africa: Pretoria",
-        "date": "Friday, April 10",
-        "time": "12:00 PM ET",
-        "location": "Pretoria, GP",
-        "promotion": "PFL",
-        "url": "https://www.tapology.com/fightcenter/events/140073-pfl-africa-1-pretoria"
     },
     {
         "event_name": "Inoue vs. Nakatani",
@@ -422,94 +358,6 @@
         "location": "Las Vegas, NV",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
-    },
-    {
-        "event_name": "Nicholson vs. Turner",
-        "date": "Wednesday, April 29",
-        "time": "5:00 AM ET",
-        "location": "Melbourne, Victoria",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140933-nicholson-vs-turner"
-    },
-    {
-        "event_name": "World Boxing Cup Brazil 2026: Finals",
-        "date": "Sunday, April 26",
-        "time": "10:00 AM ET",
-        "location": "PR, BR",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142946-world-boxing-cup-brazil-2026-finals"
-    },
-    {
-        "event_name": "Gate of Success: The Tiger's Cave Vol. 5",
-        "date": "Sunday, April 26",
-        "time": "12:00 AM ET",
-        "location": "Tsushima, JP",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142889-gate-of-success-the-tiger-s-cave-vol-5"
-    },
-    {
-        "event_name": "Sparta Army vs. Marines 17",
-        "date": "Saturday, April 25",
-        "time": "7:00 PM ET",
-        "location": "Loveland, CO",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139174-sparta-army-vs-marines-17"
-    },
-    {
-        "event_name": "Ignite Fights 112",
-        "date": "Saturday, April 25",
-        "time": "6:00 PM ET",
-        "location": "Detroit Lakes, MN",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142697-ignite-fights-112"
-    },
-    {
-        "event_name": "Boxing Extravaganza",
-        "date": "Saturday, April 25",
-        "time": "4:00 PM ET",
-        "location": "Rochester, NY",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142870-boxing-extravaganza"
-    },
-    {
-        "event_name": "Primetime Fight Night vol.8",
-        "date": "Saturday, April 25",
-        "time": "1:00 PM ET",
-        "location": "Kolding, Region of Southern Denmark",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140574-primetime-fight-night-vol-8"
-    },
-    {
-        "event_name": "Desafio de Gigantes 10",
-        "date": "Saturday, April 25",
-        "time": "1:00 PM ET",
-        "location": "Contagem, MG",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142950-desafio-de-gigantes-10"
-    },
-    {
-        "event_name": "WiP 15",
-        "date": "Saturday, April 25",
-        "time": "12:00 PM ET",
-        "location": "Myslowice, Silesian Voivodeship",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138954-wip-15"
-    },
-    {
-        "event_name": "World Boxing Series",
-        "date": "Saturday, April 25",
-        "time": "12:00 AM ET",
-        "location": "Bangkok, TH",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142848-world-boxing-series"
-    },
-    {
-        "event_name": "Moloney vs. Donovan: Urban Warfare",
-        "date": "Thursday, April 23",
-        "time": "4:00 AM ET",
-        "location": "Brisbane, QLD",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140206-moloney-vs-donovan"
     },
     {
         "event_name": "MVP MMA 1: Rousey vs. Carano",
