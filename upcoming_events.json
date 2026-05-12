@@ -128,9 +128,9 @@
         "url": "https://www.tapology.com/fightcenter/events/142881-zuffa-boxing"
     },
     {
-        "event_name": "Zuffa Boxing 8",
+        "event_name": "Zuffa Boxing 8: De Los Santos vs. Valenzue...",
         "date": "Sunday, June 28",
-        "time": "8:00 PM ET",
+        "time": "6:00 PM ET",
         "location": "The Chelsea at the Cosmopolitan",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/143454-zuffa-boxing-8"
@@ -422,6 +422,14 @@
         "location": "Hanover, MD",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/142109-probox-fight-night"
+    },
+    {
+        "event_name": "Chaos in the Ring",
+        "date": "Friday, May 01",
+        "time": "2:00 PM ET",
+        "location": "Lagos, NG",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/140713-chaos-in-the-ring"
     },
     {
         "event_name": "MVP MMA 1: Rousey vs. Carano",
