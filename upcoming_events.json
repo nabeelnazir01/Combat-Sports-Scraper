@@ -25,6 +25,14 @@
     },
     {
         "event_name": "UFC Fight Night",
+        "date": "Saturday, July 25",
+        "time": "12:00 PM ET",
+        "location": "Abu Dhabi, AE",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/143627-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night",
         "date": "Saturday, July 18",
         "time": "5:00 PM ET",
         "location": "Oklahoma City, OK",
@@ -152,6 +160,14 @@
         "url": "https://www.tapology.com/fightcenter/events/140537-zuffa-boxing-6"
     },
     {
+        "event_name": "PFL Washington DC: Jean vs. Musaev",
+        "date": "Saturday, July 25",
+        "time": "7:00 PM ET",
+        "location": "Washington, US",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/143625-pfl-washington-d-c-jean-vs-musaev"
+    },
+    {
         "event_name": "PFL Austin: Van Steenis vs. Eblen 2",
         "date": "Saturday, July 18",
         "time": "5:00 PM ET",
@@ -216,6 +232,14 @@
         "url": "https://www.tapology.com/fightcenter/events/140389-pfl-sioux-falls"
     },
     {
+        "event_name": "Jerusalem vs. Kuse II",
+        "date": "Saturday, May 16",
+        "time": "1:00 PM ET",
+        "location": "South Africa Region",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/141486-jerusalem-vs-kuse-ii"
+    },
+    {
         "event_name": "Fusion Fight League",
         "date": "Saturday, May 16",
         "time": "9:00 PM ET",
@@ -248,7 +272,7 @@
         "url": "https://www.tapology.com/fightcenter/events/141783-bivol-vs-eifert"
     },
     {
-        "event_name": "Han vs. Holm II: MVPW 03",
+        "event_name": "Han vs. Holm 2",
         "date": "Saturday, May 30",
         "time": "8:00 PM ET",
         "location": "El Paso, TX",
@@ -304,12 +328,20 @@
         "url": "https://www.tapology.com/fightcenter/events/142593-bam-vs-vargas"
     },
     {
-        "event_name": "MVPW 4",
+        "event_name": "Jones vs. Carranza 2",
         "date": "Saturday, June 13",
         "time": "8:00 PM ET",
         "location": "Orlando, FL",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/143118-mvpw-4"
+    },
+    {
+        "event_name": "Gonzalez vs. Perez",
+        "date": "Sunday, June 14",
+        "time": "8:00 PM ET",
+        "location": "Grand Rapids, MI",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/143600-gonzalez-vs-perez"
     },
     {
         "event_name": "Garner vs. Magnesi",
@@ -318,6 +350,14 @@
         "location": "Southampton, England",
         "promotion": "Boxing",
         "url": "https://www.tapology.com/fightcenter/events/142229-garner-vs-magnesi"
+    },
+    {
+        "event_name": "Crocker vs. Paro",
+        "date": "Wednesday, June 24",
+        "time": "7:00 AM ET",
+        "location": "Queensland, AU",
+        "promotion": "Boxing",
+        "url": "https://www.tapology.com/fightcenter/events/143555-crocker-vs-paro"
     },
     {
         "event_name": "Zayas vs. Boots",
@@ -384,7 +424,7 @@
         "url": "https://www.tapology.com/fightcenter/events/139645-wardley-vs-dubois"
     },
     {
-        "event_name": "Al Ghena vs. Townsend",
+        "event_name": "Al Ghena vs. Townsend: Pivotal",
         "date": "Sunday, May 03",
         "time": "9:00 AM ET",
         "location": "London, England",
