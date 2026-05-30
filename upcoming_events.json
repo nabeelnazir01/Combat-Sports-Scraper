@@ -17,6 +17,14 @@
     },
     {
         "event_name": "UFC Fight Night",
+        "date": "Saturday, August 08",
+        "time": "6:00 PM ET",
+        "location": "Las Vegas, NV",
+        "promotion": "UFC",
+        "url": "https://www.tapology.com/fightcenter/events/143855-ufc-fight-night"
+    },
+    {
+        "event_name": "UFC Fight Night: Medic vs. Rodriguez",
         "date": "Saturday, August 01",
         "time": "12:00 PM ET",
         "location": "Belgrade, RS",
@@ -40,7 +48,7 @@
         "url": "https://www.tapology.com/fightcenter/events/142777-ufc-fight-night"
     },
     {
-        "event_name": "UFC 329",
+        "event_name": "UFC 329: McGregor vs. Holloway 2",
         "date": "Saturday, July 11",
         "time": "5:00 PM ET",
         "location": "Las Vegas, NV",
@@ -129,9 +137,17 @@
     },
     {
         "event_name": "Zuffa Boxing",
-        "date": "Sunday, July 12",
+        "date": "Saturday, August 08",
+        "time": "2:00 PM ET",
+        "location": "Dublin, IE",
+        "promotion": "Zuffa",
+        "url": "https://www.tapology.com/fightcenter/events/144122-zuffa-boxing"
+    },
+    {
+        "event_name": "Zuffa Boxing",
+        "date": "Sunday, July 26",
         "time": "6:00 PM ET",
-        "location": "Las Vegas, NV",
+        "location": "New York, NY",
         "promotion": "Zuffa",
         "url": "https://www.tapology.com/fightcenter/events/142881-zuffa-boxing"
     },
@@ -160,6 +176,14 @@
         "url": "https://www.tapology.com/fightcenter/events/140537-zuffa-boxing-6"
     },
     {
+        "event_name": "PFL New York: Nurmagomedov vs. Colgan",
+        "date": "Friday, July 31",
+        "time": "4:00 PM ET",
+        "location": "North America Region",
+        "promotion": "PFL",
+        "url": "https://www.tapology.com/fightcenter/events/144072-pfl-new-york-nurmagomedov-vs-colgan"
+    },
+    {
         "event_name": "PFL Washington DC: Jean vs. Musaev",
         "date": "Saturday, July 25",
         "time": "7:00 PM ET",
@@ -184,7 +208,7 @@
         "url": "https://www.tapology.com/fightcenter/events/142879-pfl-san-siego-mckee-vs-isbulaev"
     },
     {
-        "event_name": "PFL MENA: Jeddah",
+        "event_name": "PFL MENA 10: Jeddah",
         "date": "Friday, June 19",
         "time": "12:00 PM ET",
         "location": "King Abdullah Sports City Indo...",
@@ -200,9 +224,9 @@
         "url": "https://www.tapology.com/fightcenter/events/142300-pfl-africa-2-nigeria"
     },
     {
-        "event_name": "PFL MENA: Pride of Arabia",
+        "event_name": "PFL MENA 9: Pride of Arabia",
         "date": "Sunday, May 24",
-        "time": "9:00 AM ET",
+        "time": "8:00 AM ET",
         "location": "Dubai, AE",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/142852-pfl-mena-pride-of-arabia"
@@ -210,13 +234,13 @@
     {
         "event_name": "PFL Brussels: Habirora vs. Henderson",
         "date": "Saturday, May 23",
-        "time": "12:00 PM ET",
+        "time": "12:30 PM ET",
         "location": "Brussels, BE",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/140580-pfl-brussels-habirora-vs-henderson"
     },
     {
-        "event_name": "PFL MENA: Khobar (cancelled)",
+        "event_name": "PFL MENA 8: Khobar (cancelled)",
         "date": "Friday, May 08",
         "time": "10:30 AM ET",
         "location": "Dhahran Expo",
@@ -230,253 +254,5 @@
         "location": "Sanford Pentagon",
         "promotion": "PFL",
         "url": "https://www.tapology.com/fightcenter/events/140389-pfl-sioux-falls"
-    },
-    {
-        "event_name": "Jerusalem vs. Kuse II",
-        "date": "Saturday, May 16",
-        "time": "1:00 PM ET",
-        "location": "South Africa Region",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141486-jerusalem-vs-kuse-ii"
-    },
-    {
-        "event_name": "Fusion Fight League",
-        "date": "Saturday, May 16",
-        "time": "9:00 PM ET",
-        "location": "Billings, MT",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138715-fusion-fight-league"
-    },
-    {
-        "event_name": "Usyk vs. Rico: Glory in Giza",
-        "date": "Saturday, May 23",
-        "time": "1:00 PM ET",
-        "location": "Giza, EG",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140464-usyk-vs-verhoven"
-    },
-    {
-        "event_name": "SAIKO x Lush vol.6",
-        "date": "Sunday, May 24",
-        "time": "7:00 AM ET",
-        "location": "Bishkek, KG",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142970-saiko-x-lush-vol-6"
-    },
-    {
-        "event_name": "Bivol vs. Eifert",
-        "date": "Saturday, May 30",
-        "time": "11:00 AM ET",
-        "location": "Yekaterinburg, Sverdlovsk Oblast",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141783-bivol-vs-eifert"
-    },
-    {
-        "event_name": "Han vs. Holm 2",
-        "date": "Saturday, May 30",
-        "time": "8:00 PM ET",
-        "location": "El Paso, TX",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140777-han-vs-holm-ii-mvpw-03"
-    },
-    {
-        "event_name": "Foster vs. Ford",
-        "date": "Saturday, May 30",
-        "time": "8:00 PM ET",
-        "location": "Houston, TX",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142087-foster-vs-ford"
-    },
-    {
-        "event_name": "Ramirez vs. Richards",
-        "date": "Thursday, June 04",
-        "time": "8:00 PM ET",
-        "location": "Montreal, QC",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141689-ramirez-vs-richards"
-    },
-    {
-        "event_name": "SAIKO x Lush",
-        "date": "Saturday, June 06",
-        "time": "3:00 AM ET",
-        "location": "Tokoname, Aichi Prefecture",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142107-saiko-x-lush"
-    },
-    {
-        "event_name": "Sandoval vs. Yafai",
-        "date": "Saturday, June 06",
-        "time": "2:00 PM ET",
-        "location": "United Kingdom & Ireland Region",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141251-smith-vs-puello"
-    },
-    {
-        "event_name": "Mathieu vs. Falcao",
-        "date": "Thursday, June 11",
-        "time": "8:00 PM ET",
-        "location": "Quebec, QC",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141955-mathieu-vs-falcao"
-    },
-    {
-        "event_name": "Bam vs. Vargas",
-        "date": "Saturday, June 13",
-        "time": "8:00 PM ET",
-        "location": "Glendale, AZ",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142593-bam-vs-vargas"
-    },
-    {
-        "event_name": "Jones vs. Carranza 2",
-        "date": "Saturday, June 13",
-        "time": "8:00 PM ET",
-        "location": "Orlando, FL",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/143118-mvpw-4"
-    },
-    {
-        "event_name": "Gonzalez vs. Perez",
-        "date": "Sunday, June 14",
-        "time": "8:00 PM ET",
-        "location": "Grand Rapids, MI",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/143600-gonzalez-vs-perez"
-    },
-    {
-        "event_name": "Garner vs. Magnesi",
-        "date": "Saturday, June 20",
-        "time": "1:00 PM ET",
-        "location": "Southampton, England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142229-garner-vs-magnesi"
-    },
-    {
-        "event_name": "Crocker vs. Paro",
-        "date": "Wednesday, June 24",
-        "time": "7:00 AM ET",
-        "location": "Queensland, AU",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/143555-crocker-vs-paro"
-    },
-    {
-        "event_name": "Zayas vs. Boots",
-        "date": "Saturday, June 27",
-        "time": "9:00 PM ET",
-        "location": "New York, NY",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/141787-zayas-vs-boots"
-    },
-    {
-        "event_name": "Mason vs. Cordina: The Fight",
-        "date": "Saturday, July 04",
-        "time": "8:00 PM ET",
-        "location": "Cleveland, OH",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142086-mason-vs-cordina"
-    },
-    {
-        "event_name": "Olascuaga vs. Dominguez: History in the Ma...",
-        "date": "Saturday, July 11",
-        "time": "8:00 PM ET",
-        "location": "San Francisco, CA",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/143378-olascuaga-vs-dominguez-history-in-the-making"
-    },
-    {
-        "event_name": "O'Leary vs. Chamberlain",
-        "date": "Saturday, August 01",
-        "time": "2:00 PM ET",
-        "location": "Dublin, IE",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/143130-o-leary-vs-chamberlain"
-    },
-    {
-        "event_name": "Mayweather vs. Pacquiao 2",
-        "date": "Friday, September 25",
-        "time": "9:00 PM ET",
-        "location": "Las Vegas, NV",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140302-mayweather-vs-pacquiao-2"
-    },
-    {
-        "event_name": "La Leyenda Continua",
-        "date": "Saturday, May 09",
-        "time": "9:00 PM ET",
-        "location": "La Plata, Buenos Aires",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/143191-la-leyenda-continua"
-    },
-    {
-        "event_name": "FNC 11",
-        "date": "Saturday, May 09",
-        "time": "12:00 PM ET",
-        "location": "Bratislava, Bratislava Region",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140683-fnc-11"
-    },
-    {
-        "event_name": "Wardley vs. Dubois: Don't Blink",
-        "date": "Saturday, May 09",
-        "time": "11:00 AM ET",
-        "location": "Burnley, England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/139645-wardley-vs-dubois"
-    },
-    {
-        "event_name": "Al Ghena vs. Townsend: Pivotal",
-        "date": "Sunday, May 03",
-        "time": "9:00 AM ET",
-        "location": "London, England",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140215-al-ghena-vs-townsend"
-    },
-    {
-        "event_name": "Benavidez vs. Zurdo",
-        "date": "Saturday, May 02",
-        "time": "5:30 PM ET",
-        "location": "Las Vegas, NV",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/136363-benavidez-vs-zurdo"
-    },
-    {
-        "event_name": "Inoue vs. Nakatani",
-        "date": "Saturday, May 02",
-        "time": "3:00 AM ET",
-        "location": "Tokyo, JP",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/138182-inoue-vs-nakatani"
-    },
-    {
-        "event_name": "Island Fights 96",
-        "date": "Friday, May 01",
-        "time": "8:00 PM ET",
-        "location": "Pensacola, FL",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140360-island-fights-96"
-    },
-    {
-        "event_name": "ProBox Fight Night",
-        "date": "Friday, May 01",
-        "time": "7:00 PM ET",
-        "location": "Hanover, MD",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/142109-probox-fight-night"
-    },
-    {
-        "event_name": "Chaos in the Ring",
-        "date": "Friday, May 01",
-        "time": "2:00 PM ET",
-        "location": "Lagos, NG",
-        "promotion": "Boxing",
-        "url": "https://www.tapology.com/fightcenter/events/140713-chaos-in-the-ring"
-    },
-    {
-        "event_name": "MVP MMA 1: Rousey vs. Carano",
-        "date": "Saturday, May 16",
-        "time": "6:00 PM ET",
-        "location": "Inglewood, CA",
-        "promotion": "Other",
-        "url": "https://www.tapology.com/fightcenter/events/140072-rousey-vs-carano"
     }
 ]
